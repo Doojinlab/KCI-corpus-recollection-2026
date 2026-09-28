@@ -1,0 +1,639 @@
+title	인공지능 중국어	total=279	got=279	new=279	acc=279
+title	챗봇 중국어	total=3	got=3	new=0	acc=279
+title	ChatGPT 중국어	total=36	got=36	new=27	acc=306
+title	생성형 중국어	total=80	got=80	new=59	acc=365
+title	딥러닝 중국어	total=13	got=13	new=13	acc=378
+title	기계번역 중국어	total=67	got=67	new=60	acc=438
+title	음성인식 중국어	total=4	got=4	new=1	acc=439
+title	LLM 중국어	total=7	got=7	new=7	acc=446
+title	챗GPT 중국어	total=1	got=1	new=0	acc=446
+title	거대언어모델 중국어	total=null	got=0	new=0	acc=446
+title	대화형 중국어	total=125	got=125	new=119	acc=565
+title	인공지능 HSK	total=3	got=3	new=1	acc=566
+title	챗봇 HSK	total=null	got=0	new=0	acc=566
+title	ChatGPT HSK	total=null	got=0	new=0	acc=566
+title	생성형 HSK	total=2	got=2	new=0	acc=566
+title	딥러닝 HSK	total=null	got=0	new=0	acc=566
+title	기계번역 HSK	total=null	got=0	new=0	acc=566
+title	음성인식 HSK	total=null	got=0	new=0	acc=566
+title	LLM HSK	total=null	got=0	new=0	acc=566
+title	챗GPT HSK	total=null	got=0	new=0	acc=566
+title	거대언어모델 HSK	total=null	got=0	new=0	acc=566
+title	대화형 HSK	total=2	got=2	new=1	acc=567
+title	인공지능 한자 교육	total=1	got=1	new=1	acc=568
+title	챗봇 한자 교육	total=null	got=0	new=0	acc=568
+title	ChatGPT 한자 교육	total=null	got=0	new=0	acc=568
+title	생성형 한자 교육	total=2	got=2	new=0	acc=568
+title	딥러닝 한자 교육	total=null	got=0	new=0	acc=568
+title	기계번역 한자 교육	total=null	got=0	new=0	acc=568
+title	음성인식 한자 교육	total=null	got=0	new=0	acc=568
+title	LLM 한자 교육	total=null	got=0	new=0	acc=568
+title	챗GPT 한자 교육	total=null	got=0	new=0	acc=568
+title	거대언어모델 한자 교육	total=null	got=0	new=0	acc=568
+title	대화형 한자 교육	total=null	got=0	new=0	acc=568
+title	인공지능 한자 학습	total=2	got=2	new=0	acc=568
+title	챗봇 한자 학습	total=null	got=0	new=0	acc=568
+title	ChatGPT 한자 학습	total=null	got=0	new=0	acc=568
+title	생성형 한자 학습	total=4	got=4	new=3	acc=571
+title	딥러닝 한자 학습	total=null	got=0	new=0	acc=571
+title	기계번역 한자 학습	total=null	got=0	new=0	acc=571
+title	음성인식 한자 학습	total=null	got=0	new=0	acc=571
+title	LLM 한자 학습	total=null	got=0	new=0	acc=571
+title	챗GPT 한자 학습	total=null	got=0	new=0	acc=571
+title	거대언어모델 한자 학습	total=null	got=0	new=0	acc=571
+title	대화형 한자 학습	total=null	got=0	new=0	acc=571
+title	인공지능 중국어 학습	total=35	got=35	new=0	acc=571
+title	챗봇 중국어 학습	total=null	got=0	new=0	acc=571
+title	ChatGPT 중국어 학습	total=5	got=5	new=0	acc=571
+title	생성형 중국어 학습	total=5	got=5	new=0	acc=571
+title	딥러닝 중국어 학습	total=12	got=12	new=0	acc=571
+title	기계번역 중국어 학습	total=2	got=2	new=0	acc=571
+title	음성인식 중국어 학습	total=null	got=0	new=0	acc=571
+title	LLM 중국어 학습	total=null	got=0	new=0	acc=571
+title	챗GPT 중국어 학습	total=1	got=1	new=0	acc=571
+title	거대언어모델 중국어 학습	total=null	got=0	new=0	acc=571
+title	대화형 중국어 학습	total=7	got=7	new=0	acc=571
+title	인공지능 어니봇	total=null	got=0	new=0	acc=571
+title	챗봇 어니봇	total=1	got=1	new=0	acc=571
+title	ChatGPT 어니봇	total=null	got=0	new=0	acc=571
+title	생성형 어니봇	total=null	got=0	new=0	acc=571
+title	딥러닝 어니봇	total=null	got=0	new=0	acc=571
+title	기계번역 어니봇	total=null	got=0	new=0	acc=571
+title	음성인식 어니봇	total=null	got=0	new=0	acc=571
+title	LLM 어니봇	total=null	got=0	new=0	acc=571
+title	챗GPT 어니봇	total=1	got=1	new=0	acc=571
+title	거대언어모델 어니봇	total=null	got=0	new=0	acc=571
+title	대화형 어니봇	total=null	got=0	new=0	acc=571
+title	인공지능 딥시크	total=7	got=7	new=4	acc=575
+title	챗봇 딥시크	total=null	got=0	new=0	acc=575
+title	ChatGPT 딥시크	total=1	got=1	new=0	acc=575
+title	생성형 딥시크	total=2	got=2	new=0	acc=575
+title	딥러닝 딥시크	total=null	got=0	new=0	acc=575
+title	기계번역 딥시크	total=null	got=0	new=0	acc=575
+title	음성인식 딥시크	total=null	got=0	new=0	acc=575
+title	LLM 딥시크	total=null	got=0	new=0	acc=575
+title	챗GPT 딥시크	total=2	got=2	new=1	acc=576
+title	거대언어모델 딥시크	total=null	got=0	new=0	acc=576
+title	대화형 딥시크	total=null	got=0	new=0	acc=576
+title	인공지능 DeepSeek	total=18	got=18	new=9	acc=585
+title	챗봇 DeepSeek	total=null	got=0	new=0	acc=585
+title	ChatGPT DeepSeek	total=15	got=15	new=3	acc=588
+title	생성형 DeepSeek	total=8	got=8	new=1	acc=589
+title	딥러닝 DeepSeek	total=null	got=0	new=0	acc=589
+title	기계번역 DeepSeek	total=null	got=0	new=0	acc=589
+title	음성인식 DeepSeek	total=null	got=0	new=0	acc=589
+title	LLM DeepSeek	total=2	got=2	new=0	acc=589
+title	챗GPT DeepSeek	total=null	got=0	new=0	acc=589
+title	거대언어모델 DeepSeek	total=1	got=1	new=1	acc=590
+title	대화형 DeepSeek	total=1	got=1	new=0	acc=590
+title	인공지능 文心一言	total=4	got=4	new=1	acc=591
+title	챗봇 文心一言	total=2	got=2	new=0	acc=591
+title	ChatGPT 文心一言	total=3	got=3	new=1	acc=592
+title	생성형 文心一言	total=1	got=1	new=0	acc=592
+title	딥러닝 文心一言	total=null	got=0	new=0	acc=592
+title	기계번역 文心一言	total=null	got=0	new=0	acc=592
+title	음성인식 文心一言	total=null	got=0	new=0	acc=592
+title	LLM 文心一言	total=null	got=0	new=0	acc=592
+title	챗GPT 文心一言	total=null	got=0	new=0	acc=592
+title	거대언어모델 文心一言	total=null	got=0	new=0	acc=592
+title	대화형 文心一言	total=null	got=0	new=0	acc=592
+title	인공지능 汉语	total=279	got=279	new=0	acc=592
+title	챗봇 汉语	total=3	got=3	new=0	acc=592
+title	ChatGPT 汉语	total=37	got=37	new=1	acc=593
+title	생성형 汉语	total=71	got=71	new=3	acc=596
+title	딥러닝 汉语	total=13	got=13	new=0	acc=596
+title	기계번역 汉语	total=66	got=66	new=0	acc=596
+title	음성인식 汉语	total=4	got=4	new=0	acc=596
+title	LLM 汉语	total=7	got=7	new=0	acc=596
+title	챗GPT 汉语	total=1	got=1	new=0	acc=596
+title	거대언어모델 汉语	total=null	got=0	new=0	acc=596
+title	대화형 汉语	total=123	got=123	new=0	acc=596
+title	인공지능 漢語	total=279	got=279	new=0	acc=596
+title	챗봇 漢語	total=3	got=3	new=0	acc=596
+title	ChatGPT 漢語	total=36	got=36	new=0	acc=596
+title	생성형 漢語	total=68	got=68	new=0	acc=596
+title	딥러닝 漢語	total=13	got=13	new=0	acc=596
+title	기계번역 漢語	total=66	got=66	new=0	acc=596
+title	음성인식 漢語	total=4	got=4	new=0	acc=596
+title	LLM 漢語	total=7	got=7	new=0	acc=596
+title	챗GPT 漢語	total=1	got=1	new=0	acc=596
+title	거대언어모델 漢語	total=null	got=0	new=0	acc=596
+title	대화형 漢語	total=123	got=123	new=0	acc=596
+title	인공지능 Chinese	total=279	got=279	new=0	acc=596
+title	챗봇 Chinese	total=3	got=3	new=0	acc=596
+title	ChatGPT Chinese	total=36	got=36	new=0	acc=596
+title	생성형 Chinese	total=68	got=68	new=0	acc=596
+title	딥러닝 Chinese	total=13	got=13	new=0	acc=596
+title	기계번역 Chinese	total=66	got=66	new=0	acc=596
+title	음성인식 Chinese	total=4	got=4	new=0	acc=596
+title	LLM Chinese	total=7	got=7	new=0	acc=596
+title	챗GPT Chinese	total=1	got=1	new=0	acc=596
+title	거대언어모델 Chinese	total=null	got=0	new=0	acc=596
+title	대화형 Chinese	total=123	got=123	new=0	acc=596
+title	인공지능 한국어교육	total=88	got=88	new=85	acc=681
+title	챗봇 한국어교육	total=12	got=12	new=7	acc=688
+title	ChatGPT 한국어교육	total=13	got=13	new=7	acc=695
+title	생성형 한국어교육	total=50	got=50	new=26	acc=721
+title	딥러닝 한국어교육	total=1	got=1	new=1	acc=722
+title	기계번역 한국어교육	total=8	got=8	new=6	acc=728
+title	음성인식 한국어교육	total=null	got=0	new=0	acc=728
+title	LLM 한국어교육	total=2	got=2	new=2	acc=730
+title	챗GPT 한국어교육	total=4	got=4	new=1	acc=731
+title	거대언어모델 한국어교육	total=null	got=0	new=0	acc=731
+title	대화형 한국어교육	total=28	got=28	new=22	acc=753
+title	인공지능 한국어 학습	total=83	got=83	new=65	acc=818
+title	챗봇 한국어 학습	total=8	got=8	new=3	acc=821
+title	ChatGPT 한국어 학습	total=29	got=29	new=20	acc=841
+title	생성형 한국어 학습	total=53	got=53	new=27	acc=868
+title	딥러닝 한국어 학습	total=90	got=90	new=83	acc=951
+title	기계번역 한국어 학습	total=17	got=17	new=11	acc=962
+title	음성인식 한국어 학습	total=6	got=6	new=5	acc=967
+title	LLM 한국어 학습	total=4	got=4	new=4	acc=971
+title	챗GPT 한국어 학습	total=4	got=4	new=1	acc=972
+title	거대언어모델 한국어 학습	total=3	got=3	new=1	acc=973
+title	대화형 한국어 학습	total=53	got=53	new=38	acc=1011
+title	인공지능 한국어 교육	total=88	got=88	new=0	acc=1011
+title	챗봇 한국어 교육	total=12	got=12	new=0	acc=1011
+title	ChatGPT 한국어 교육	total=13	got=13	new=0	acc=1011
+title	생성형 한국어 교육	total=50	got=50	new=0	acc=1011
+title	딥러닝 한국어 교육	total=1	got=1	new=0	acc=1011
+title	기계번역 한국어 교육	total=8	got=8	new=0	acc=1011
+title	음성인식 한국어 교육	total=null	got=0	new=0	acc=1011
+title	LLM 한국어 교육	total=2	got=2	new=0	acc=1011
+title	챗GPT 한국어 교육	total=4	got=4	new=0	acc=1011
+title	거대언어모델 한국어 교육	total=null	got=0	new=0	acc=1011
+title	대화형 한국어 교육	total=28	got=28	new=0	acc=1011
+title	인공지능 KFL	total=2	got=2	new=2	acc=1013
+title	챗봇 KFL	total=null	got=0	new=0	acc=1013
+title	ChatGPT KFL	total=1	got=1	new=0	acc=1013
+title	생성형 KFL	total=1	got=1	new=0	acc=1013
+title	딥러닝 KFL	total=null	got=0	new=0	acc=1013
+title	기계번역 KFL	total=null	got=0	new=0	acc=1013
+title	음성인식 KFL	total=null	got=0	new=0	acc=1013
+title	LLM KFL	total=null	got=0	new=0	acc=1013
+title	챗GPT KFL	total=null	got=0	new=0	acc=1013
+title	거대언어모델 KFL	total=null	got=0	new=0	acc=1013
+title	대화형 KFL	total=3	got=3	new=3	acc=1016
+title	인공지능 한국어능력시험	total=58	got=58	new=52	acc=1068
+title	챗봇 한국어능력시험	total=2	got=2	new=1	acc=1069
+title	ChatGPT 한국어능력시험	total=14	got=14	new=11	acc=1080
+title	생성형 한국어능력시험	total=21	got=21	new=4	acc=1084
+title	딥러닝 한국어능력시험	total=4	got=4	new=4	acc=1088
+title	기계번역 한국어능력시험	total=null	got=0	new=0	acc=1088
+title	음성인식 한국어능력시험	total=null	got=0	new=0	acc=1088
+title	LLM 한국어능력시험	total=4	got=4	new=2	acc=1090
+title	챗GPT 한국어능력시험	total=3	got=3	new=3	acc=1093
+title	거대언어모델 한국어능력시험	total=1	got=1	new=0	acc=1093
+title	대화형 한국어능력시험	total=6	got=6	new=4	acc=1097
+title	인공지능 TOPIK	total=58	got=58	new=0	acc=1097
+title	챗봇 TOPIK	total=2	got=2	new=0	acc=1097
+title	ChatGPT TOPIK	total=14	got=14	new=0	acc=1097
+title	생성형 TOPIK	total=20	got=20	new=0	acc=1097
+title	딥러닝 TOPIK	total=4	got=4	new=0	acc=1097
+title	기계번역 TOPIK	total=null	got=0	new=0	acc=1097
+title	음성인식 TOPIK	total=null	got=0	new=0	acc=1097
+title	LLM TOPIK	total=4	got=4	new=0	acc=1097
+title	챗GPT TOPIK	total=3	got=3	new=0	acc=1097
+title	거대언어모델 TOPIK	total=1	got=1	new=0	acc=1097
+title	대화형 TOPIK	total=6	got=6	new=0	acc=1097
+title	인공지능 Korean language	total=867	got=867	new=630	acc=1727
+title	챗봇 Korean language	total=22	got=22	new=8	acc=1735
+title	ChatGPT Korean language	total=169	got=169	new=98	acc=1833
+title	생성형 Korean language	total=337	got=337	new=197	acc=2030
+title	딥러닝 Korean language	total=95	got=95	new=5	acc=2035
+title	기계번역 Korean language	total=220	got=220	new=147	acc=2182
+title	음성인식 Korean language	total=78	got=78	new=68	acc=2250
+title	LLM Korean language	total=52	got=52	new=38	acc=2288
+title	챗GPT Korean language	total=8	got=8	new=0	acc=2288
+title	거대언어모델 Korean language	total=10	got=10	new=6	acc=2294
+title	대화형 Korean language	total=509	got=509	new=404	acc=2698
+title	인공지능 국어교육	total=86	got=86	new=0	acc=2698
+title	챗봇 국어교육	total=11	got=11	new=0	acc=2698
+title	ChatGPT 국어교육	total=12	got=12	new=0	acc=2698
+title	생성형 국어교육	total=38	got=38	new=4	acc=2702
+title	딥러닝 국어교육	total=1	got=1	new=0	acc=2702
+title	기계번역 국어교육	total=5	got=5	new=0	acc=2702
+title	음성인식 국어교육	total=null	got=0	new=0	acc=2702
+title	LLM 국어교육	total=1	got=1	new=0	acc=2702
+title	챗GPT 국어교육	total=3	got=3	new=0	acc=2702
+title	거대언어모델 국어교육	total=null	got=0	new=0	acc=2702
+title	대화형 국어교육	total=29	got=29	new=8	acc=2710
+title	인공지능 글쓰기	total=424	got=424	new=360	acc=3070
+title	챗봇 글쓰기	total=16	got=16	new=1	acc=3071
+title	ChatGPT 글쓰기	total=192	got=192	new=123	acc=3194
+title	생성형 글쓰기	total=216	got=216	new=62	acc=3256
+title	딥러닝 글쓰기	total=5	got=5	new=3	acc=3259
+title	기계번역 글쓰기	total=25	got=25	new=14	acc=3273
+title	음성인식 글쓰기	total=1	got=1	new=0	acc=3273
+title	LLM 글쓰기	total=9	got=9	new=5	acc=3278
+title	챗GPT 글쓰기	total=20	got=20	new=1	acc=3279
+title	거대언어모델 글쓰기	total=2	got=2	new=1	acc=3280
+title	대화형 글쓰기	total=97	got=97	new=80	acc=3360
+title	인공지능 작문 교육	total=69	got=69	new=9	acc=3369
+title	챗봇 작문 교육	total=3	got=3	new=0	acc=3369
+title	ChatGPT 작문 교육	total=15	got=15	new=0	acc=3369
+title	생성형 작문 교육	total=32	got=32	new=0	acc=3369
+title	딥러닝 작문 교육	total=null	got=0	new=0	acc=3369
+title	기계번역 작문 교육	total=1	got=1	new=0	acc=3369
+title	음성인식 작문 교육	total=null	got=0	new=0	acc=3369
+title	LLM 작문 교육	total=null	got=0	new=0	acc=3369
+title	챗GPT 작문 교육	total=6	got=6	new=0	acc=3369
+title	거대언어모델 작문 교육	total=null	got=0	new=0	acc=3369
+title	대화형 작문 교육	total=5	got=5	new=1	acc=3370
+title	인공지능 영어	total=418	got=418	new=309	acc=3679
+title	챗봇 영어	total=80	got=80	new=21	acc=3700
+title	ChatGPT 영어	total=170	got=170	new=73	acc=3773
+title	생성형 영어	total=104	got=104	new=35	acc=3808
+title	딥러닝 영어	total=12	got=12	new=7	acc=3815
+title	기계번역 영어	total=111	got=111	new=25	acc=3840
+title	음성인식 영어	total=31	got=31	new=24	acc=3864
+title	LLM 영어	total=15	got=15	new=4	acc=3868
+title	챗GPT 영어	total=13	got=13	new=0	acc=3868
+title	거대언어모델 영어	total=null	got=0	new=0	acc=3868
+title	대화형 영어	total=216	got=216	new=155	acc=4023
+title	인공지능 영어교육	total=82	got=82	new=1	acc=4024
+title	챗봇 영어교육	total=15	got=15	new=0	acc=4024
+title	ChatGPT 영어교육	total=19	got=19	new=0	acc=4024
+title	생성형 영어교육	total=21	got=21	new=2	acc=4026
+title	딥러닝 영어교육	total=null	got=0	new=0	acc=4026
+title	기계번역 영어교육	total=3	got=3	new=0	acc=4026
+title	음성인식 영어교육	total=4	got=4	new=0	acc=4026
+title	LLM 영어교육	total=1	got=1	new=0	acc=4026
+title	챗GPT 영어교육	total=2	got=2	new=0	acc=4026
+title	거대언어모델 영어교육	total=null	got=0	new=0	acc=4026
+title	대화형 영어교육	total=9	got=9	new=0	acc=4026
+title	인공지능 EFL	total=105	got=105	new=31	acc=4057
+title	챗봇 EFL	total=3	got=3	new=1	acc=4058
+title	ChatGPT EFL	total=62	got=62	new=15	acc=4073
+title	생성형 EFL	total=8	got=8	new=2	acc=4075
+title	딥러닝 EFL	total=1	got=1	new=0	acc=4075
+title	기계번역 EFL	total=12	got=12	new=2	acc=4077
+title	음성인식 EFL	total=1	got=1	new=0	acc=4077
+title	LLM EFL	total=4	got=4	new=1	acc=4078
+title	챗GPT EFL	total=null	got=0	new=0	acc=4078
+title	거대언어모델 EFL	total=null	got=0	new=0	acc=4078
+title	대화형 EFL	total=27	got=27	new=8	acc=4086
+title	인공지능 English	total=415	got=415	new=0	acc=4086
+title	챗봇 English	total=49	got=49	new=0	acc=4086
+title	ChatGPT English	total=169	got=169	new=0	acc=4086
+title	생성형 English	total=83	got=83	new=0	acc=4086
+title	딥러닝 English	total=12	got=12	new=0	acc=4086
+title	기계번역 English	total=107	got=107	new=0	acc=4086
+title	음성인식 English	total=28	got=28	new=0	acc=4086
+title	LLM English	total=15	got=15	new=0	acc=4086
+title	챗GPT English	total=8	got=8	new=0	acc=4086
+title	거대언어모델 English	total=null	got=0	new=0	acc=4086
+title	대화형 English	total=200	got=200	new=0	acc=4086
+title	인공지능 외국어교육	total=6	got=6	new=4	acc=4090
+title	챗봇 외국어교육	total=null	got=0	new=0	acc=4090
+title	ChatGPT 외국어교육	total=1	got=1	new=1	acc=4091
+title	생성형 외국어교육	total=2	got=2	new=0	acc=4091
+title	딥러닝 외국어교육	total=null	got=0	new=0	acc=4091
+title	기계번역 외국어교육	total=3	got=3	new=1	acc=4092
+title	음성인식 외국어교육	total=null	got=0	new=0	acc=4092
+title	LLM 외국어교육	total=null	got=0	new=0	acc=4092
+title	챗GPT 외국어교육	total=null	got=0	new=0	acc=4092
+title	거대언어모델 외국어교육	total=null	got=0	new=0	acc=4092
+title	대화형 외국어교육	total=3	got=3	new=1	acc=4093
+title	인공지능 외국어 학습	total=8	got=8	new=3	acc=4096
+title	챗봇 외국어 학습	total=4	got=4	new=3	acc=4099
+title	ChatGPT 외국어 학습	total=3	got=3	new=2	acc=4101
+title	생성형 외국어 학습	total=2	got=2	new=1	acc=4102
+title	딥러닝 외국어 학습	total=null	got=0	new=0	acc=4102
+title	기계번역 외국어 학습	total=1	got=1	new=1	acc=4103
+title	음성인식 외국어 학습	total=1	got=1	new=0	acc=4103
+title	LLM 외국어 학습	total=null	got=0	new=0	acc=4103
+title	챗GPT 외국어 학습	total=null	got=0	new=0	acc=4103
+title	거대언어모델 외국어 학습	total=null	got=0	new=0	acc=4103
+title	대화형 외국어 학습	total=2	got=2	new=1	acc=4104
+title	ChatGPT EFL	total=62	got=62	new=0	acc=4104
+title	AI EFL	total=105	got=105	new=0	acc=4104
+title	chatbot English	total=49	got=49	new=5	acc=4109
+title	generative AI English	total=65	got=65	new=0	acc=4109
+title	ChatGPT Korean	total=169	got=169	new=0	acc=4109
+title	AI Korean language	total=867	got=867	new=8	acc=4117
+title	ChatGPT Chinese	total=36	got=36	new=0	acc=4117
+title	AI Chinese language	total=279	got=279	new=0	acc=4117
+title	人工智能 汉语	total=279	got=279	new=0	acc=4117
+title	ChatGPT 汉语	total=37	got=37	new=0	acc=4117
+title	生成式 汉语	total=69	got=69	new=0	acc=4117
+keyword	인공지능 중국어	total=249	got=249	new=91	acc=4208
+keyword	챗봇 중국어	total=3	got=3	new=0	acc=4208
+keyword	ChatGPT 중국어	total=42	got=42	new=6	acc=4214
+keyword	생성형 중국어	total=60	got=60	new=27	acc=4241
+keyword	딥러닝 중국어	total=15	got=15	new=4	acc=4245
+keyword	기계번역 중국어	total=54	got=54	new=9	acc=4254
+keyword	음성인식 중국어	total=9	got=9	new=5	acc=4259
+keyword	LLM 중국어	total=7	got=7	new=0	acc=4259
+keyword	챗GPT 중국어	total=3	got=3	new=0	acc=4259
+keyword	거대언어모델 중국어	total=2	got=2	new=0	acc=4259
+keyword	대화형 중국어	total=94	got=94	new=51	acc=4310
+keyword	인공지능 HSK	total=4	got=4	new=0	acc=4310
+keyword	챗봇 HSK	total=null	got=0	new=0	acc=4310
+keyword	ChatGPT HSK	total=null	got=0	new=0	acc=4310
+keyword	생성형 HSK	total=2	got=2	new=0	acc=4310
+keyword	딥러닝 HSK	total=null	got=0	new=0	acc=4310
+keyword	기계번역 HSK	total=null	got=0	new=0	acc=4310
+keyword	음성인식 HSK	total=null	got=0	new=0	acc=4310
+keyword	LLM HSK	total=null	got=0	new=0	acc=4310
+keyword	챗GPT HSK	total=null	got=0	new=0	acc=4310
+keyword	거대언어모델 HSK	total=null	got=0	new=0	acc=4310
+keyword	대화형 HSK	total=null	got=0	new=0	acc=4310
+keyword	인공지능 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	챗봇 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	ChatGPT 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	생성형 한자 교육	total=1	got=1	new=0	acc=4310
+keyword	딥러닝 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	기계번역 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	음성인식 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	LLM 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	챗GPT 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	거대언어모델 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	대화형 한자 교육	total=null	got=0	new=0	acc=4310
+keyword	인공지능 한자 학습	total=1	got=1	new=0	acc=4310
+keyword	챗봇 한자 학습	total=null	got=0	new=0	acc=4310
+keyword	ChatGPT 한자 학습	total=null	got=0	new=0	acc=4310
+keyword	생성형 한자 학습	total=2	got=2	new=1	acc=4311
+keyword	딥러닝 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	기계번역 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	음성인식 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	LLM 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	챗GPT 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	거대언어모델 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	대화형 한자 학습	total=null	got=0	new=0	acc=4311
+keyword	인공지능 중국어 학습	total=38	got=38	new=0	acc=4311
+keyword	챗봇 중국어 학습	total=1	got=1	new=0	acc=4311
+keyword	ChatGPT 중국어 학습	total=10	got=10	new=0	acc=4311
+keyword	생성형 중국어 학습	total=11	got=11	new=0	acc=4311
+keyword	딥러닝 중국어 학습	total=14	got=14	new=0	acc=4311
+keyword	기계번역 중국어 학습	total=3	got=3	new=0	acc=4311
+keyword	음성인식 중국어 학습	total=3	got=3	new=0	acc=4311
+keyword	LLM 중국어 학습	total=1	got=1	new=0	acc=4311
+keyword	챗GPT 중국어 학습	total=1	got=1	new=0	acc=4311
+keyword	거대언어모델 중국어 학습	total=1	got=1	new=0	acc=4311
+keyword	대화형 중국어 학습	total=9	got=9	new=0	acc=4311
+keyword	인공지능 어니봇	total=null	got=0	new=0	acc=4311
+keyword	챗봇 어니봇	total=1	got=1	new=0	acc=4311
+keyword	ChatGPT 어니봇	total=null	got=0	new=0	acc=4311
+keyword	생성형 어니봇	total=null	got=0	new=0	acc=4311
+keyword	딥러닝 어니봇	total=null	got=0	new=0	acc=4311
+keyword	기계번역 어니봇	total=null	got=0	new=0	acc=4311
+keyword	음성인식 어니봇	total=null	got=0	new=0	acc=4311
+keyword	LLM 어니봇	total=null	got=0	new=0	acc=4311
+keyword	챗GPT 어니봇	total=1	got=1	new=0	acc=4311
+keyword	거대언어모델 어니봇	total=null	got=0	new=0	acc=4311
+keyword	대화형 어니봇	total=null	got=0	new=0	acc=4311
+keyword	인공지능 딥시크	total=9	got=9	new=1	acc=4312
+keyword	챗봇 딥시크	total=null	got=0	new=0	acc=4312
+keyword	ChatGPT 딥시크	total=1	got=1	new=0	acc=4312
+keyword	생성형 딥시크	total=4	got=4	new=0	acc=4312
+keyword	딥러닝 딥시크	total=null	got=0	new=0	acc=4312
+keyword	기계번역 딥시크	total=1	got=1	new=0	acc=4312
+keyword	음성인식 딥시크	total=null	got=0	new=0	acc=4312
+keyword	LLM 딥시크	total=1	got=1	new=0	acc=4312
+keyword	챗GPT 딥시크	total=2	got=2	new=0	acc=4312
+keyword	거대언어모델 딥시크	total=1	got=1	new=0	acc=4312
+keyword	대화형 딥시크	total=null	got=0	new=0	acc=4312
+keyword	인공지능 DeepSeek	total=23	got=23	new=3	acc=4315
+keyword	챗봇 DeepSeek	total=null	got=0	new=0	acc=4315
+keyword	ChatGPT DeepSeek	total=16	got=16	new=1	acc=4316
+keyword	생성형 DeepSeek	total=3	got=3	new=0	acc=4316
+keyword	딥러닝 DeepSeek	total=null	got=0	new=0	acc=4316
+keyword	기계번역 DeepSeek	total=1	got=1	new=0	acc=4316
+keyword	음성인식 DeepSeek	total=null	got=0	new=0	acc=4316
+keyword	LLM DeepSeek	total=3	got=3	new=0	acc=4316
+keyword	챗GPT DeepSeek	total=null	got=0	new=0	acc=4316
+keyword	거대언어모델 DeepSeek	total=1	got=1	new=0	acc=4316
+keyword	대화형 DeepSeek	total=1	got=1	new=0	acc=4316
+keyword	인공지능 文心一言	total=2	got=2	new=0	acc=4316
+keyword	챗봇 文心一言	total=null	got=0	new=0	acc=4316
+keyword	ChatGPT 文心一言	total=2	got=2	new=0	acc=4316
+keyword	생성형 文心一言	total=1	got=1	new=0	acc=4316
+keyword	딥러닝 文心一言	total=null	got=0	new=0	acc=4316
+keyword	기계번역 文心一言	total=null	got=0	new=0	acc=4316
+keyword	음성인식 文心一言	total=null	got=0	new=0	acc=4316
+keyword	LLM 文心一言	total=null	got=0	new=0	acc=4316
+keyword	챗GPT 文心一言	total=null	got=0	new=0	acc=4316
+keyword	거대언어모델 文心一言	total=null	got=0	new=0	acc=4316
+keyword	대화형 文心一言	total=null	got=0	new=0	acc=4316
+keyword	인공지능 汉语	total=249	got=249	new=0	acc=4316
+keyword	챗봇 汉语	total=3	got=3	new=0	acc=4316
+keyword	ChatGPT 汉语	total=42	got=42	new=0	acc=4316
+keyword	생성형 汉语	total=54	got=54	new=0	acc=4316
+keyword	딥러닝 汉语	total=15	got=15	new=0	acc=4316
+keyword	기계번역 汉语	total=54	got=54	new=0	acc=4316
+keyword	음성인식 汉语	total=8	got=8	new=0	acc=4316
+keyword	LLM 汉语	total=6	got=6	new=0	acc=4316
+keyword	챗GPT 汉语	total=2	got=2	new=0	acc=4316
+keyword	거대언어모델 汉语	total=2	got=2	new=0	acc=4316
+keyword	대화형 汉语	total=93	got=93	new=0	acc=4316
+keyword	인공지능 漢語	total=249	got=249	new=0	acc=4316
+keyword	챗봇 漢語	total=3	got=3	new=0	acc=4316
+keyword	ChatGPT 漢語	total=42	got=42	new=0	acc=4316
+keyword	생성형 漢語	total=53	got=53	new=0	acc=4316
+keyword	딥러닝 漢語	total=15	got=15	new=0	acc=4316
+keyword	기계번역 漢語	total=54	got=54	new=0	acc=4316
+keyword	음성인식 漢語	total=8	got=8	new=0	acc=4316
+keyword	LLM 漢語	total=6	got=6	new=0	acc=4316
+keyword	챗GPT 漢語	total=2	got=2	new=0	acc=4316
+keyword	거대언어모델 漢語	total=2	got=2	new=0	acc=4316
+keyword	대화형 漢語	total=93	got=93	new=0	acc=4316
+keyword	인공지능 Chinese	total=249	got=249	new=0	acc=4316
+keyword	챗봇 Chinese	total=3	got=3	new=0	acc=4316
+keyword	ChatGPT Chinese	total=42	got=42	new=0	acc=4316
+keyword	생성형 Chinese	total=53	got=53	new=0	acc=4316
+keyword	딥러닝 Chinese	total=15	got=15	new=0	acc=4316
+keyword	기계번역 Chinese	total=54	got=54	new=0	acc=4316
+keyword	음성인식 Chinese	total=8	got=8	new=0	acc=4316
+keyword	LLM Chinese	total=6	got=6	new=0	acc=4316
+keyword	챗GPT Chinese	total=2	got=2	new=0	acc=4316
+keyword	거대언어모델 Chinese	total=2	got=2	new=0	acc=4316
+keyword	대화형 Chinese	total=93	got=93	new=0	acc=4316
+keyword	인공지능 한국어교육	total=155	got=155	new=28	acc=4344
+keyword	챗봇 한국어교육	total=15	got=15	new=0	acc=4344
+keyword	ChatGPT 한국어교육	total=38	got=38	new=1	acc=4345
+keyword	생성형 한국어교육	total=85	got=85	new=3	acc=4348
+keyword	딥러닝 한국어교육	total=3	got=3	new=1	acc=4349
+keyword	기계번역 한국어교육	total=16	got=16	new=1	acc=4350
+keyword	음성인식 한국어교육	total=7	got=7	new=1	acc=4351
+keyword	LLM 한국어교육	total=3	got=3	new=0	acc=4351
+keyword	챗GPT 한국어교육	total=9	got=9	new=0	acc=4351
+keyword	거대언어모델 한국어교육	total=2	got=2	new=0	acc=4351
+keyword	대화형 한국어교육	total=72	got=72	new=34	acc=4385
+keyword	인공지능 한국어 학습	total=118	got=118	new=18	acc=4403
+keyword	챗봇 한국어 학습	total=8	got=8	new=0	acc=4403
+keyword	ChatGPT 한국어 학습	total=24	got=24	new=0	acc=4403
+keyword	생성형 한국어 학습	total=46	got=46	new=2	acc=4405
+keyword	딥러닝 한국어 학습	total=85	got=85	new=42	acc=4447
+keyword	기계번역 한국어 학습	total=20	got=20	new=0	acc=4447
+keyword	음성인식 한국어 학습	total=9	got=9	new=3	acc=4450
+keyword	LLM 한국어 학습	total=3	got=3	new=1	acc=4451
+keyword	챗GPT 한국어 학습	total=7	got=7	new=0	acc=4451
+keyword	거대언어모델 한국어 학습	total=4	got=4	new=0	acc=4451
+keyword	대화형 한국어 학습	total=43	got=43	new=15	acc=4466
+keyword	인공지능 한국어 교육	total=155	got=155	new=0	acc=4466
+keyword	챗봇 한국어 교육	total=15	got=15	new=0	acc=4466
+keyword	ChatGPT 한국어 교육	total=38	got=38	new=0	acc=4466
+keyword	생성형 한국어 교육	total=85	got=85	new=0	acc=4466
+keyword	딥러닝 한국어 교육	total=3	got=3	new=0	acc=4466
+keyword	기계번역 한국어 교육	total=16	got=16	new=0	acc=4466
+keyword	음성인식 한국어 교육	total=7	got=7	new=0	acc=4466
+keyword	LLM 한국어 교육	total=3	got=3	new=0	acc=4466
+keyword	챗GPT 한국어 교육	total=9	got=9	new=0	acc=4466
+keyword	거대언어모델 한국어 교육	total=2	got=2	new=0	acc=4466
+keyword	대화형 한국어 교육	total=72	got=72	new=0	acc=4466
+keyword	인공지능 KFL	total=3	got=3	new=0	acc=4466
+keyword	챗봇 KFL	total=null	got=0	new=0	acc=4466
+keyword	ChatGPT KFL	total=null	got=0	new=0	acc=4466
+keyword	생성형 KFL	total=null	got=0	new=0	acc=4466
+keyword	딥러닝 KFL	total=null	got=0	new=0	acc=4466
+keyword	기계번역 KFL	total=null	got=0	new=0	acc=4466
+keyword	음성인식 KFL	total=null	got=0	new=0	acc=4466
+keyword	LLM KFL	total=null	got=0	new=0	acc=4466
+keyword	챗GPT KFL	total=null	got=0	new=0	acc=4466
+keyword	거대언어모델 KFL	total=null	got=0	new=0	acc=4466
+keyword	대화형 KFL	total=8	got=8	new=4	acc=4470
+keyword	인공지능 한국어능력시험	total=86	got=86	new=40	acc=4510
+keyword	챗봇 한국어능력시험	total=5	got=5	new=4	acc=4514
+keyword	ChatGPT 한국어능력시험	total=14	got=14	new=1	acc=4515
+keyword	생성형 한국어능력시험	total=23	got=23	new=3	acc=4518
+keyword	딥러닝 한국어능력시험	total=13	got=13	new=9	acc=4527
+keyword	기계번역 한국어능력시험	total=1	got=1	new=1	acc=4528
+keyword	음성인식 한국어능력시험	total=1	got=1	new=0	acc=4528
+keyword	LLM 한국어능력시험	total=3	got=3	new=0	acc=4528
+keyword	챗GPT 한국어능력시험	total=4	got=4	new=0	acc=4528
+keyword	거대언어모델 한국어능력시험	total=2	got=2	new=0	acc=4528
+keyword	대화형 한국어능력시험	total=8	got=8	new=3	acc=4531
+keyword	인공지능 TOPIK	total=86	got=86	new=0	acc=4531
+keyword	챗봇 TOPIK	total=5	got=5	new=0	acc=4531
+keyword	ChatGPT TOPIK	total=14	got=14	new=0	acc=4531
+keyword	생성형 TOPIK	total=23	got=23	new=0	acc=4531
+keyword	딥러닝 TOPIK	total=13	got=13	new=0	acc=4531
+keyword	기계번역 TOPIK	total=1	got=1	new=0	acc=4531
+keyword	음성인식 TOPIK	total=1	got=1	new=0	acc=4531
+keyword	LLM TOPIK	total=3	got=3	new=0	acc=4531
+keyword	챗GPT TOPIK	total=4	got=4	new=0	acc=4531
+keyword	거대언어모델 TOPIK	total=2	got=2	new=0	acc=4531
+keyword	대화형 TOPIK	total=8	got=8	new=0	acc=4531
+keyword	인공지능 Korean language	total=646	got=646	new=145	acc=4676
+keyword	챗봇 Korean language	total=16	got=16	new=2	acc=4678
+keyword	ChatGPT Korean language	total=151	got=151	new=4	acc=4682
+keyword	생성형 Korean language	total=206	got=206	new=66	acc=4748
+keyword	딥러닝 Korean language	total=91	got=91	new=5	acc=4753
+keyword	기계번역 Korean language	total=189	got=189	new=40	acc=4793
+keyword	음성인식 Korean language	total=50	got=50	new=25	acc=4818
+keyword	LLM Korean language	total=44	got=44	new=13	acc=4831
+keyword	챗GPT Korean language	total=20	got=20	new=0	acc=4831
+keyword	거대언어모델 Korean language	total=16	got=16	new=1	acc=4832
+keyword	대화형 Korean language	total=388	got=388	new=190	acc=5022
+keyword	인공지능 국어교육	total=156	got=156	new=0	acc=5022
+keyword	챗봇 국어교육	total=14	got=14	new=0	acc=5022
+keyword	ChatGPT 국어교육	total=32	got=32	new=0	acc=5022
+keyword	생성형 국어교육	total=78	got=78	new=1	acc=5023
+keyword	딥러닝 국어교육	total=3	got=3	new=0	acc=5023
+keyword	기계번역 국어교육	total=14	got=14	new=0	acc=5023
+keyword	음성인식 국어교육	total=3	got=3	new=0	acc=5023
+keyword	LLM 국어교육	total=2	got=2	new=0	acc=5023
+keyword	챗GPT 국어교육	total=7	got=7	new=0	acc=5023
+keyword	거대언어모델 국어교육	total=3	got=3	new=1	acc=5024
+keyword	대화형 국어교육	total=65	got=65	new=1	acc=5025
+keyword	인공지능 글쓰기	total=545	got=545	new=100	acc=5125
+keyword	챗봇 글쓰기	total=20	got=20	new=2	acc=5127
+keyword	ChatGPT 글쓰기	total=262	got=262	new=8	acc=5135
+keyword	생성형 글쓰기	total=277	got=277	new=56	acc=5191
+keyword	딥러닝 글쓰기	total=9	got=9	new=3	acc=5194
+keyword	기계번역 글쓰기	total=49	got=49	new=9	acc=5203
+keyword	음성인식 글쓰기	total=5	got=5	new=1	acc=5204
+keyword	LLM 글쓰기	total=11	got=11	new=0	acc=5204
+keyword	챗GPT 글쓰기	total=42	got=42	new=1	acc=5205
+keyword	거대언어모델 글쓰기	total=6	got=6	new=0	acc=5205
+keyword	대화형 글쓰기	total=190	got=190	new=110	acc=5315
+keyword	인공지능 작문 교육	total=117	got=117	new=3	acc=5318
+keyword	챗봇 작문 교육	total=5	got=5	new=0	acc=5318
+keyword	ChatGPT 작문 교육	total=42	got=42	new=0	acc=5318
+keyword	생성형 작문 교육	total=68	got=68	new=1	acc=5319
+keyword	딥러닝 작문 교육	total=1	got=1	new=0	acc=5319
+keyword	기계번역 작문 교육	total=2	got=2	new=0	acc=5319
+keyword	음성인식 작문 교육	total=1	got=1	new=0	acc=5319
+keyword	LLM 작문 교육	total=1	got=1	new=0	acc=5319
+keyword	챗GPT 작문 교육	total=16	got=16	new=0	acc=5319
+keyword	거대언어모델 작문 교육	total=null	got=0	new=0	acc=5319
+keyword	대화형 작문 교육	total=20	got=20	new=3	acc=5322
+keyword	인공지능 영어	total=423	got=423	new=50	acc=5372
+keyword	챗봇 영어	total=57	got=57	new=0	acc=5372
+keyword	ChatGPT 영어	total=184	got=184	new=11	acc=5383
+keyword	생성형 영어	total=85	got=85	new=6	acc=5389
+keyword	딥러닝 영어	total=7	got=7	new=1	acc=5390
+keyword	기계번역 영어	total=117	got=117	new=10	acc=5400
+keyword	음성인식 영어	total=31	got=31	new=13	acc=5413
+keyword	LLM 영어	total=5	got=5	new=0	acc=5413
+keyword	챗GPT 영어	total=29	got=29	new=0	acc=5413
+keyword	거대언어모델 영어	total=2	got=2	new=0	acc=5413
+keyword	대화형 영어	total=144	got=144	new=50	acc=5463
+keyword	인공지능 영어교육	total=169	got=169	new=0	acc=5463
+keyword	챗봇 영어교육	total=28	got=28	new=0	acc=5463
+keyword	ChatGPT 영어교육	total=34	got=34	new=0	acc=5463
+keyword	생성형 영어교육	total=35	got=35	new=0	acc=5463
+keyword	딥러닝 영어교육	total=1	got=1	new=0	acc=5463
+keyword	기계번역 영어교육	total=10	got=10	new=0	acc=5463
+keyword	음성인식 영어교육	total=7	got=7	new=0	acc=5463
+keyword	LLM 영어교육	total=1	got=1	new=0	acc=5463
+keyword	챗GPT 영어교육	total=9	got=9	new=0	acc=5463
+keyword	거대언어모델 영어교육	total=null	got=0	new=0	acc=5463
+keyword	대화형 영어교육	total=16	got=16	new=0	acc=5463
+keyword	인공지능 EFL	total=116	got=116	new=6	acc=5469
+keyword	챗봇 EFL	total=4	got=4	new=0	acc=5469
+keyword	ChatGPT EFL	total=73	got=73	new=1	acc=5470
+keyword	생성형 EFL	total=6	got=6	new=0	acc=5470
+keyword	딥러닝 EFL	total=1	got=1	new=0	acc=5470
+keyword	기계번역 EFL	total=19	got=19	new=1	acc=5471
+keyword	음성인식 EFL	total=1	got=1	new=0	acc=5471
+keyword	LLM EFL	total=1	got=1	new=0	acc=5471
+keyword	챗GPT EFL	total=2	got=2	new=0	acc=5471
+keyword	거대언어모델 EFL	total=1	got=1	new=0	acc=5471
+keyword	대화형 EFL	total=36	got=36	new=10	acc=5481
+keyword	인공지능 English	total=420	got=420	new=0	acc=5481
+keyword	챗봇 English	total=30	got=30	new=0	acc=5481
+keyword	ChatGPT English	total=184	got=184	new=0	acc=5481
+keyword	생성형 English	total=66	got=66	new=0	acc=5481
+keyword	딥러닝 English	total=7	got=7	new=0	acc=5481
+keyword	기계번역 English	total=114	got=114	new=0	acc=5481
+keyword	음성인식 English	total=28	got=28	new=0	acc=5481
+keyword	LLM English	total=5	got=5	new=0	acc=5481
+keyword	챗GPT English	total=23	got=23	new=0	acc=5481
+keyword	거대언어모델 English	total=2	got=2	new=0	acc=5481
+keyword	대화형 English	total=139	got=139	new=0	acc=5481
+keyword	인공지능 외국어교육	total=17	got=17	new=5	acc=5486
+keyword	챗봇 외국어교육	total=1	got=1	new=0	acc=5486
+keyword	ChatGPT 외국어교육	total=2	got=2	new=0	acc=5486
+keyword	생성형 외국어교육	total=4	got=4	new=0	acc=5486
+keyword	딥러닝 외국어교육	total=null	got=0	new=0	acc=5486
+keyword	기계번역 외국어교육	total=6	got=6	new=1	acc=5487
+keyword	음성인식 외국어교육	total=1	got=1	new=1	acc=5488
+keyword	LLM 외국어교육	total=null	got=0	new=0	acc=5488
+keyword	챗GPT 외국어교육	total=1	got=1	new=0	acc=5488
+keyword	거대언어모델 외국어교육	total=null	got=0	new=0	acc=5488
+keyword	대화형 외국어교육	total=10	got=10	new=6	acc=5494
+keyword	인공지능 외국어 학습	total=14	got=14	new=1	acc=5495
+keyword	챗봇 외국어 학습	total=2	got=2	new=0	acc=5495
+keyword	ChatGPT 외국어 학습	total=3	got=3	new=1	acc=5496
+keyword	생성형 외국어 학습	total=6	got=6	new=2	acc=5498
+keyword	딥러닝 외국어 학습	total=null	got=0	new=0	acc=5498
+keyword	기계번역 외국어 학습	total=1	got=1	new=0	acc=5498
+keyword	음성인식 외국어 학습	total=null	got=0	new=0	acc=5498
+keyword	LLM 외국어 학습	total=null	got=0	new=0	acc=5498
+keyword	챗GPT 외국어 학습	total=2	got=2	new=0	acc=5498
+keyword	거대언어모델 외국어 학습	total=null	got=0	new=0	acc=5498
+keyword	대화형 외국어 학습	total=8	got=8	new=0	acc=5498
+keyword	ChatGPT EFL	total=73	got=73	new=0	acc=5498
+keyword	AI EFL	total=116	got=116	new=0	acc=5498
+keyword	chatbot English	total=67	got=67	new=3	acc=5501
+keyword	generative AI English	total=90	got=90	new=0	acc=5501
+keyword	ChatGPT Korean	total=151	got=151	new=0	acc=5501
+keyword	AI Korean language	total=646	got=646	new=0	acc=5501
+keyword	ChatGPT Chinese	total=42	got=42	new=0	acc=5501
+keyword	AI Chinese language	total=249	got=249	new=0	acc=5501
+keyword	人工智能 汉语	total=249	got=249	new=0	acc=5501
+keyword	ChatGPT 汉语	total=42	got=42	new=0	acc=5501
+keyword	生成式 汉语	total=47	got=47	new=0	acc=5501
+unique 5501 {"1998":5,"1999":2,"2000":4,"2001":3,"2002":43,"2003":43,"2004":55,"2005":61,"2006":43,"2007":57,"2008":61,"2009":71,"2010":81,"2011":60,"2012":77,"2013":95,"2014":84,"2015":114,"2016":125,"2017":139,"2018":151,"2019":193,"2020":189,"2021":281,"2022":277,"2023":489,"2024":698,"2025":1048,"2026":952}

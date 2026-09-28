@@ -1,0 +1,5106 @@
+[
+ {
+  "field": "title",
+  "q": "인공지능 중국어",
+  "group": "중국어",
+  "total": 279,
+  "got": 279,
+  "fresh": 279
+ },
+ {
+  "field": "title",
+  "q": "챗봇 중국어",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 중국어",
+  "group": "중국어",
+  "total": 36,
+  "got": 36,
+  "fresh": 27
+ },
+ {
+  "field": "title",
+  "q": "생성형 중국어",
+  "group": "중국어",
+  "total": 80,
+  "got": 80,
+  "fresh": 59
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 중국어",
+  "group": "중국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 13
+ },
+ {
+  "field": "title",
+  "q": "기계번역 중국어",
+  "group": "중국어",
+  "total": 67,
+  "got": 67,
+  "fresh": 60
+ },
+ {
+  "field": "title",
+  "q": "음성인식 중국어",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "LLM 중국어",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 7
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 중국어",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 중국어",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 중국어",
+  "group": "중국어",
+  "total": 125,
+  "got": 125,
+  "fresh": 119
+ },
+ {
+  "field": "title",
+  "q": "인공지능 HSK",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "챗봇 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 HSK",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 HSK",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "인공지능 한자 교육",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "챗봇 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 한자 교육",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 한자 학습",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 한자 학습",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 중국어 학습",
+  "group": "중국어",
+  "total": 35,
+  "got": 35,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 중국어 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 중국어 학습",
+  "group": "중국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 중국어 학습",
+  "group": "중국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 중국어 학습",
+  "group": "중국어",
+  "total": 12,
+  "got": 12,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 중국어 학습",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 중국어 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 중국어 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 중국어 학습",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 중국어 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 중국어 학습",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 어니봇",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 어니봇",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 딥시크",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "챗봇 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 딥시크",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 딥시크",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 딥시크",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 DeepSeek",
+  "group": "중국어",
+  "total": 18,
+  "got": 18,
+  "fresh": 9
+ },
+ {
+  "field": "title",
+  "q": "챗봇 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT DeepSeek",
+  "group": "중국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "생성형 DeepSeek",
+  "group": "중국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM DeepSeek",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 DeepSeek",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "대화형 DeepSeek",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 文心一言",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "챗봇 文心一言",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 文心一言",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "생성형 文心一言",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 汉语",
+  "group": "중국어",
+  "total": 279,
+  "got": 279,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 汉语",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 汉语",
+  "group": "중국어",
+  "total": 37,
+  "got": 37,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "생성형 汉语",
+  "group": "중국어",
+  "total": 71,
+  "got": 71,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 汉语",
+  "group": "중국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 汉语",
+  "group": "중국어",
+  "total": 66,
+  "got": 66,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 汉语",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 汉语",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 汉语",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 汉语",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 汉语",
+  "group": "중국어",
+  "total": 123,
+  "got": 123,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 漢語",
+  "group": "중국어",
+  "total": 279,
+  "got": 279,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 漢語",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 漢語",
+  "group": "중국어",
+  "total": 36,
+  "got": 36,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 漢語",
+  "group": "중국어",
+  "total": 68,
+  "got": 68,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 漢語",
+  "group": "중국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 漢語",
+  "group": "중국어",
+  "total": 66,
+  "got": 66,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 漢語",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 漢語",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 漢語",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 漢語",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 漢語",
+  "group": "중국어",
+  "total": 123,
+  "got": 123,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 Chinese",
+  "group": "중국어",
+  "total": 279,
+  "got": 279,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 Chinese",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT Chinese",
+  "group": "중국어",
+  "total": 36,
+  "got": 36,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 Chinese",
+  "group": "중국어",
+  "total": 68,
+  "got": 68,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 Chinese",
+  "group": "중국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 Chinese",
+  "group": "중국어",
+  "total": 66,
+  "got": 66,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 Chinese",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM Chinese",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT Chinese",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 Chinese",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 Chinese",
+  "group": "중국어",
+  "total": 123,
+  "got": 123,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 한국어교육",
+  "group": "한국어",
+  "total": 88,
+  "got": 88,
+  "fresh": 85
+ },
+ {
+  "field": "title",
+  "q": "챗봇 한국어교육",
+  "group": "한국어",
+  "total": 12,
+  "got": 12,
+  "fresh": 7
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 한국어교육",
+  "group": "한국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 7
+ },
+ {
+  "field": "title",
+  "q": "생성형 한국어교육",
+  "group": "한국어",
+  "total": 50,
+  "got": 50,
+  "fresh": 26
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 한국어교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "기계번역 한국어교육",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 6
+ },
+ {
+  "field": "title",
+  "q": "음성인식 한국어교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 한국어교육",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 한국어교육",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 한국어교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 한국어교육",
+  "group": "한국어",
+  "total": 28,
+  "got": 28,
+  "fresh": 22
+ },
+ {
+  "field": "title",
+  "q": "인공지능 한국어 학습",
+  "group": "한국어",
+  "total": 83,
+  "got": 83,
+  "fresh": 65
+ },
+ {
+  "field": "title",
+  "q": "챗봇 한국어 학습",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 한국어 학습",
+  "group": "한국어",
+  "total": 29,
+  "got": 29,
+  "fresh": 20
+ },
+ {
+  "field": "title",
+  "q": "생성형 한국어 학습",
+  "group": "한국어",
+  "total": 53,
+  "got": 53,
+  "fresh": 27
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 한국어 학습",
+  "group": "한국어",
+  "total": 90,
+  "got": 90,
+  "fresh": 83
+ },
+ {
+  "field": "title",
+  "q": "기계번역 한국어 학습",
+  "group": "한국어",
+  "total": 17,
+  "got": 17,
+  "fresh": 11
+ },
+ {
+  "field": "title",
+  "q": "음성인식 한국어 학습",
+  "group": "한국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 5
+ },
+ {
+  "field": "title",
+  "q": "LLM 한국어 학습",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 한국어 학습",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 한국어 학습",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "대화형 한국어 학습",
+  "group": "한국어",
+  "total": 53,
+  "got": 53,
+  "fresh": 38
+ },
+ {
+  "field": "title",
+  "q": "인공지능 한국어 교육",
+  "group": "한국어",
+  "total": 88,
+  "got": 88,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 한국어 교육",
+  "group": "한국어",
+  "total": 12,
+  "got": 12,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 한국어 교육",
+  "group": "한국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 한국어 교육",
+  "group": "한국어",
+  "total": 50,
+  "got": 50,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 한국어 교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 한국어 교육",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 한국어 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 한국어 교육",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 한국어 교육",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 한국어 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 한국어 교육",
+  "group": "한국어",
+  "total": 28,
+  "got": 28,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 KFL",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "챗봇 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT KFL",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 KFL",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 KFL",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "인공지능 한국어능력시험",
+  "group": "한국어",
+  "total": 58,
+  "got": 58,
+  "fresh": 52
+ },
+ {
+  "field": "title",
+  "q": "챗봇 한국어능력시험",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 한국어능력시험",
+  "group": "한국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 11
+ },
+ {
+  "field": "title",
+  "q": "생성형 한국어능력시험",
+  "group": "한국어",
+  "total": 21,
+  "got": 21,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 한국어능력시험",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "기계번역 한국어능력시험",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 한국어능력시험",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 한국어능력시험",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 한국어능력시험",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 한국어능력시험",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 한국어능력시험",
+  "group": "한국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "인공지능 TOPIK",
+  "group": "한국어",
+  "total": 58,
+  "got": 58,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 TOPIK",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT TOPIK",
+  "group": "한국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 TOPIK",
+  "group": "한국어",
+  "total": 20,
+  "got": 20,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 TOPIK",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 TOPIK",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 TOPIK",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM TOPIK",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT TOPIK",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 TOPIK",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 TOPIK",
+  "group": "한국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 Korean language",
+  "group": "한국어",
+  "total": 867,
+  "got": 867,
+  "fresh": 630
+ },
+ {
+  "field": "title",
+  "q": "챗봇 Korean language",
+  "group": "한국어",
+  "total": 22,
+  "got": 22,
+  "fresh": 8
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT Korean language",
+  "group": "한국어",
+  "total": 169,
+  "got": 169,
+  "fresh": 98
+ },
+ {
+  "field": "title",
+  "q": "생성형 Korean language",
+  "group": "한국어",
+  "total": 337,
+  "got": 337,
+  "fresh": 197
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 Korean language",
+  "group": "한국어",
+  "total": 95,
+  "got": 95,
+  "fresh": 5
+ },
+ {
+  "field": "title",
+  "q": "기계번역 Korean language",
+  "group": "한국어",
+  "total": 220,
+  "got": 220,
+  "fresh": 147
+ },
+ {
+  "field": "title",
+  "q": "음성인식 Korean language",
+  "group": "한국어",
+  "total": 78,
+  "got": 78,
+  "fresh": 68
+ },
+ {
+  "field": "title",
+  "q": "LLM Korean language",
+  "group": "한국어",
+  "total": 52,
+  "got": 52,
+  "fresh": 38
+ },
+ {
+  "field": "title",
+  "q": "챗GPT Korean language",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 Korean language",
+  "group": "한국어",
+  "total": 10,
+  "got": 10,
+  "fresh": 6
+ },
+ {
+  "field": "title",
+  "q": "대화형 Korean language",
+  "group": "한국어",
+  "total": 509,
+  "got": 509,
+  "fresh": 404
+ },
+ {
+  "field": "title",
+  "q": "인공지능 국어교육",
+  "group": "한국어",
+  "total": 86,
+  "got": 86,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 국어교육",
+  "group": "한국어",
+  "total": 11,
+  "got": 11,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 국어교육",
+  "group": "한국어",
+  "total": 12,
+  "got": 12,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 국어교육",
+  "group": "한국어",
+  "total": 38,
+  "got": 38,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 국어교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 국어교육",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 국어교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 국어교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 국어교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 국어교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 국어교육",
+  "group": "한국어",
+  "total": 29,
+  "got": 29,
+  "fresh": 8
+ },
+ {
+  "field": "title",
+  "q": "인공지능 글쓰기",
+  "group": "한국어",
+  "total": 424,
+  "got": 424,
+  "fresh": 360
+ },
+ {
+  "field": "title",
+  "q": "챗봇 글쓰기",
+  "group": "한국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 글쓰기",
+  "group": "한국어",
+  "total": 192,
+  "got": 192,
+  "fresh": 123
+ },
+ {
+  "field": "title",
+  "q": "생성형 글쓰기",
+  "group": "한국어",
+  "total": 216,
+  "got": 216,
+  "fresh": 62
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 글쓰기",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "기계번역 글쓰기",
+  "group": "한국어",
+  "total": 25,
+  "got": 25,
+  "fresh": 14
+ },
+ {
+  "field": "title",
+  "q": "음성인식 글쓰기",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 글쓰기",
+  "group": "한국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 5
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 글쓰기",
+  "group": "한국어",
+  "total": 20,
+  "got": 20,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 글쓰기",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "대화형 글쓰기",
+  "group": "한국어",
+  "total": 97,
+  "got": 97,
+  "fresh": 80
+ },
+ {
+  "field": "title",
+  "q": "인공지능 작문 교육",
+  "group": "한국어",
+  "total": 69,
+  "got": 69,
+  "fresh": 9
+ },
+ {
+  "field": "title",
+  "q": "챗봇 작문 교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 작문 교육",
+  "group": "한국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 작문 교육",
+  "group": "한국어",
+  "total": 32,
+  "got": 32,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 작문 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 작문 교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 작문 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 작문 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 작문 교육",
+  "group": "한국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 작문 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 작문 교육",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "인공지능 영어",
+  "group": "영어",
+  "total": 418,
+  "got": 418,
+  "fresh": 309
+ },
+ {
+  "field": "title",
+  "q": "챗봇 영어",
+  "group": "영어",
+  "total": 80,
+  "got": 80,
+  "fresh": 21
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 영어",
+  "group": "영어",
+  "total": 170,
+  "got": 170,
+  "fresh": 73
+ },
+ {
+  "field": "title",
+  "q": "생성형 영어",
+  "group": "영어",
+  "total": 104,
+  "got": 104,
+  "fresh": 35
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 영어",
+  "group": "영어",
+  "total": 12,
+  "got": 12,
+  "fresh": 7
+ },
+ {
+  "field": "title",
+  "q": "기계번역 영어",
+  "group": "영어",
+  "total": 111,
+  "got": 111,
+  "fresh": 25
+ },
+ {
+  "field": "title",
+  "q": "음성인식 영어",
+  "group": "영어",
+  "total": 31,
+  "got": 31,
+  "fresh": 24
+ },
+ {
+  "field": "title",
+  "q": "LLM 영어",
+  "group": "영어",
+  "total": 15,
+  "got": 15,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 영어",
+  "group": "영어",
+  "total": 13,
+  "got": 13,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 영어",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 영어",
+  "group": "영어",
+  "total": 216,
+  "got": 216,
+  "fresh": 155
+ },
+ {
+  "field": "title",
+  "q": "인공지능 영어교육",
+  "group": "영어",
+  "total": 82,
+  "got": 82,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "챗봇 영어교육",
+  "group": "영어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 영어교육",
+  "group": "영어",
+  "total": 19,
+  "got": 19,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 영어교육",
+  "group": "영어",
+  "total": 21,
+  "got": 21,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 영어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 영어교육",
+  "group": "영어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 영어교육",
+  "group": "영어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 영어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 영어교육",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 영어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 영어교육",
+  "group": "영어",
+  "total": 9,
+  "got": 9,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 EFL",
+  "group": "영어",
+  "total": 105,
+  "got": 105,
+  "fresh": 31
+ },
+ {
+  "field": "title",
+  "q": "챗봇 EFL",
+  "group": "영어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT EFL",
+  "group": "영어",
+  "total": 62,
+  "got": 62,
+  "fresh": 15
+ },
+ {
+  "field": "title",
+  "q": "생성형 EFL",
+  "group": "영어",
+  "total": 8,
+  "got": 8,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 EFL",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 EFL",
+  "group": "영어",
+  "total": 12,
+  "got": 12,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "음성인식 EFL",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM EFL",
+  "group": "영어",
+  "total": 4,
+  "got": 4,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "챗GPT EFL",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 EFL",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 EFL",
+  "group": "영어",
+  "total": 27,
+  "got": 27,
+  "fresh": 8
+ },
+ {
+  "field": "title",
+  "q": "인공지능 English",
+  "group": "영어",
+  "total": 415,
+  "got": 415,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗봇 English",
+  "group": "영어",
+  "total": 49,
+  "got": 49,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT English",
+  "group": "영어",
+  "total": 169,
+  "got": 169,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "생성형 English",
+  "group": "영어",
+  "total": 83,
+  "got": 83,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 English",
+  "group": "영어",
+  "total": 12,
+  "got": 12,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 English",
+  "group": "영어",
+  "total": 107,
+  "got": 107,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "음성인식 English",
+  "group": "영어",
+  "total": 28,
+  "got": 28,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM English",
+  "group": "영어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT English",
+  "group": "영어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 English",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 English",
+  "group": "영어",
+  "total": 200,
+  "got": 200,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "인공지능 외국어교육",
+  "group": "영어",
+  "total": 6,
+  "got": 6,
+  "fresh": 4
+ },
+ {
+  "field": "title",
+  "q": "챗봇 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 외국어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "생성형 외국어교육",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 외국어교육",
+  "group": "영어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "음성인식 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 외국어교육",
+  "group": "영어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "인공지능 외국어 학습",
+  "group": "영어",
+  "total": 8,
+  "got": 8,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "챗봇 외국어 학습",
+  "group": "영어",
+  "total": 4,
+  "got": 4,
+  "fresh": 3
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 외국어 학습",
+  "group": "영어",
+  "total": 3,
+  "got": 3,
+  "fresh": 2
+ },
+ {
+  "field": "title",
+  "q": "생성형 외국어 학습",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "딥러닝 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "기계번역 외국어 학습",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "음성인식 외국어 학습",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "LLM 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "챗GPT 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "거대언어모델 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "대화형 외국어 학습",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT EFL",
+  "group": "영어",
+  "total": 62,
+  "got": 62,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "AI EFL",
+  "group": "영어",
+  "total": 105,
+  "got": 105,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "chatbot English",
+  "group": "영어",
+  "total": 49,
+  "got": 49,
+  "fresh": 5
+ },
+ {
+  "field": "title",
+  "q": "generative AI English",
+  "group": "영어",
+  "total": 65,
+  "got": 65,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT Korean",
+  "group": "한국어",
+  "total": 169,
+  "got": 169,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "AI Korean language",
+  "group": "한국어",
+  "total": 867,
+  "got": 867,
+  "fresh": 8
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT Chinese",
+  "group": "중국어",
+  "total": 36,
+  "got": 36,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "AI Chinese language",
+  "group": "중국어",
+  "total": 279,
+  "got": 279,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "人工智能 汉语",
+  "group": "중국어",
+  "total": 279,
+  "got": 279,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "ChatGPT 汉语",
+  "group": "중국어",
+  "total": 37,
+  "got": 37,
+  "fresh": 0
+ },
+ {
+  "field": "title",
+  "q": "生成式 汉语",
+  "group": "중국어",
+  "total": 69,
+  "got": 69,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 중국어",
+  "group": "중국어",
+  "total": 249,
+  "got": 249,
+  "fresh": 91
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 중국어",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 중국어",
+  "group": "중국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 6
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 중국어",
+  "group": "중국어",
+  "total": 60,
+  "got": 60,
+  "fresh": 27
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 중국어",
+  "group": "중국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 4
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 중국어",
+  "group": "중국어",
+  "total": 54,
+  "got": 54,
+  "fresh": 9
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 중국어",
+  "group": "중국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 5
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 중국어",
+  "group": "중국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 중국어",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 중국어",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 중국어",
+  "group": "중국어",
+  "total": 94,
+  "got": 94,
+  "fresh": 51
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 HSK",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 HSK",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 HSK",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 한자 교육",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 한자 교육",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 한자 학습",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 한자 학습",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 한자 학습",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 중국어 학습",
+  "group": "중국어",
+  "total": 38,
+  "got": 38,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 중국어 학습",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 중국어 학습",
+  "group": "중국어",
+  "total": 10,
+  "got": 10,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 중국어 학습",
+  "group": "중국어",
+  "total": 11,
+  "got": 11,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 중국어 학습",
+  "group": "중국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 중국어 학습",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 중국어 학습",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 중국어 학습",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 중국어 학습",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 중국어 학습",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 중국어 학습",
+  "group": "중국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 어니봇",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 어니봇",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 어니봇",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 딥시크",
+  "group": "중국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 딥시크",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 딥시크",
+  "group": "중국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 딥시크",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 딥시크",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 딥시크",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 딥시크",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 딥시크",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 DeepSeek",
+  "group": "중국어",
+  "total": 23,
+  "got": 23,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT DeepSeek",
+  "group": "중국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 DeepSeek",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 DeepSeek",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM DeepSeek",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT DeepSeek",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 DeepSeek",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 DeepSeek",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 文心一言",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 文心一言",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 文心一言",
+  "group": "중국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 文心一言",
+  "group": "중국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 汉语",
+  "group": "중국어",
+  "total": 249,
+  "got": 249,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 汉语",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 汉语",
+  "group": "중국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 汉语",
+  "group": "중국어",
+  "total": 54,
+  "got": 54,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 汉语",
+  "group": "중국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 汉语",
+  "group": "중국어",
+  "total": 54,
+  "got": 54,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 汉语",
+  "group": "중국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 汉语",
+  "group": "중국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 汉语",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 汉语",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 汉语",
+  "group": "중국어",
+  "total": 93,
+  "got": 93,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 漢語",
+  "group": "중국어",
+  "total": 249,
+  "got": 249,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 漢語",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 漢語",
+  "group": "중국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 漢語",
+  "group": "중국어",
+  "total": 53,
+  "got": 53,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 漢語",
+  "group": "중국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 漢語",
+  "group": "중국어",
+  "total": 54,
+  "got": 54,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 漢語",
+  "group": "중국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 漢語",
+  "group": "중국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 漢語",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 漢語",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 漢語",
+  "group": "중국어",
+  "total": 93,
+  "got": 93,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 Chinese",
+  "group": "중국어",
+  "total": 249,
+  "got": 249,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 Chinese",
+  "group": "중국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT Chinese",
+  "group": "중국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 Chinese",
+  "group": "중국어",
+  "total": 53,
+  "got": 53,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 Chinese",
+  "group": "중국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 Chinese",
+  "group": "중국어",
+  "total": 54,
+  "got": 54,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 Chinese",
+  "group": "중국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM Chinese",
+  "group": "중국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT Chinese",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 Chinese",
+  "group": "중국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 Chinese",
+  "group": "중국어",
+  "total": 93,
+  "got": 93,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 한국어교육",
+  "group": "한국어",
+  "total": 155,
+  "got": 155,
+  "fresh": 28
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 한국어교육",
+  "group": "한국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 한국어교육",
+  "group": "한국어",
+  "total": 38,
+  "got": 38,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 한국어교육",
+  "group": "한국어",
+  "total": 85,
+  "got": 85,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 한국어교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 한국어교육",
+  "group": "한국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 한국어교육",
+  "group": "한국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 한국어교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 한국어교육",
+  "group": "한국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 한국어교육",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 한국어교육",
+  "group": "한국어",
+  "total": 72,
+  "got": 72,
+  "fresh": 34
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 한국어 학습",
+  "group": "한국어",
+  "total": 118,
+  "got": 118,
+  "fresh": 18
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 한국어 학습",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 한국어 학습",
+  "group": "한국어",
+  "total": 24,
+  "got": 24,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 한국어 학습",
+  "group": "한국어",
+  "total": 46,
+  "got": 46,
+  "fresh": 2
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 한국어 학습",
+  "group": "한국어",
+  "total": 85,
+  "got": 85,
+  "fresh": 42
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 한국어 학습",
+  "group": "한국어",
+  "total": 20,
+  "got": 20,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 한국어 학습",
+  "group": "한국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 한국어 학습",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 한국어 학습",
+  "group": "한국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 한국어 학습",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 한국어 학습",
+  "group": "한국어",
+  "total": 43,
+  "got": 43,
+  "fresh": 15
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 한국어 교육",
+  "group": "한국어",
+  "total": 155,
+  "got": 155,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 한국어 교육",
+  "group": "한국어",
+  "total": 15,
+  "got": 15,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 한국어 교육",
+  "group": "한국어",
+  "total": 38,
+  "got": 38,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 한국어 교육",
+  "group": "한국어",
+  "total": 85,
+  "got": 85,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 한국어 교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 한국어 교육",
+  "group": "한국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 한국어 교육",
+  "group": "한국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 한국어 교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 한국어 교육",
+  "group": "한국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 한국어 교육",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 한국어 교육",
+  "group": "한국어",
+  "total": 72,
+  "got": 72,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 KFL",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 KFL",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 KFL",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 4
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 한국어능력시험",
+  "group": "한국어",
+  "total": 86,
+  "got": 86,
+  "fresh": 40
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 한국어능력시험",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 4
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 한국어능력시험",
+  "group": "한국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 한국어능력시험",
+  "group": "한국어",
+  "total": 23,
+  "got": 23,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 한국어능력시험",
+  "group": "한국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 9
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 한국어능력시험",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 한국어능력시험",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 한국어능력시험",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 한국어능력시험",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 한국어능력시험",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 한국어능력시험",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 TOPIK",
+  "group": "한국어",
+  "total": 86,
+  "got": 86,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 TOPIK",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT TOPIK",
+  "group": "한국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 TOPIK",
+  "group": "한국어",
+  "total": 23,
+  "got": 23,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 TOPIK",
+  "group": "한국어",
+  "total": 13,
+  "got": 13,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 TOPIK",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 TOPIK",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM TOPIK",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT TOPIK",
+  "group": "한국어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 TOPIK",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 TOPIK",
+  "group": "한국어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 Korean language",
+  "group": "한국어",
+  "total": 646,
+  "got": 646,
+  "fresh": 145
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 Korean language",
+  "group": "한국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 2
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT Korean language",
+  "group": "한국어",
+  "total": 151,
+  "got": 151,
+  "fresh": 4
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 Korean language",
+  "group": "한국어",
+  "total": 206,
+  "got": 206,
+  "fresh": 66
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 Korean language",
+  "group": "한국어",
+  "total": 91,
+  "got": 91,
+  "fresh": 5
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 Korean language",
+  "group": "한국어",
+  "total": 189,
+  "got": 189,
+  "fresh": 40
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 Korean language",
+  "group": "한국어",
+  "total": 50,
+  "got": 50,
+  "fresh": 25
+ },
+ {
+  "field": "keyword",
+  "q": "LLM Korean language",
+  "group": "한국어",
+  "total": 44,
+  "got": 44,
+  "fresh": 13
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT Korean language",
+  "group": "한국어",
+  "total": 20,
+  "got": 20,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 Korean language",
+  "group": "한국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 Korean language",
+  "group": "한국어",
+  "total": 388,
+  "got": 388,
+  "fresh": 190
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 국어교육",
+  "group": "한국어",
+  "total": 156,
+  "got": 156,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 국어교육",
+  "group": "한국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 국어교육",
+  "group": "한국어",
+  "total": 32,
+  "got": 32,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 국어교육",
+  "group": "한국어",
+  "total": 78,
+  "got": 78,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 국어교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 국어교육",
+  "group": "한국어",
+  "total": 14,
+  "got": 14,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 국어교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 국어교육",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 국어교육",
+  "group": "한국어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 국어교육",
+  "group": "한국어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 국어교육",
+  "group": "한국어",
+  "total": 65,
+  "got": 65,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 글쓰기",
+  "group": "한국어",
+  "total": 545,
+  "got": 545,
+  "fresh": 100
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 글쓰기",
+  "group": "한국어",
+  "total": 20,
+  "got": 20,
+  "fresh": 2
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 글쓰기",
+  "group": "한국어",
+  "total": 262,
+  "got": 262,
+  "fresh": 8
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 글쓰기",
+  "group": "한국어",
+  "total": 277,
+  "got": 277,
+  "fresh": 56
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 글쓰기",
+  "group": "한국어",
+  "total": 9,
+  "got": 9,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 글쓰기",
+  "group": "한국어",
+  "total": 49,
+  "got": 49,
+  "fresh": 9
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 글쓰기",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 글쓰기",
+  "group": "한국어",
+  "total": 11,
+  "got": 11,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 글쓰기",
+  "group": "한국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 글쓰기",
+  "group": "한국어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 글쓰기",
+  "group": "한국어",
+  "total": 190,
+  "got": 190,
+  "fresh": 110
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 작문 교육",
+  "group": "한국어",
+  "total": 117,
+  "got": 117,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 작문 교육",
+  "group": "한국어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 작문 교육",
+  "group": "한국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 작문 교육",
+  "group": "한국어",
+  "total": 68,
+  "got": 68,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 작문 교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 작문 교육",
+  "group": "한국어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 작문 교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 작문 교육",
+  "group": "한국어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 작문 교육",
+  "group": "한국어",
+  "total": 16,
+  "got": 16,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 작문 교육",
+  "group": "한국어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 작문 교육",
+  "group": "한국어",
+  "total": 20,
+  "got": 20,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 영어",
+  "group": "영어",
+  "total": 423,
+  "got": 423,
+  "fresh": 50
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 영어",
+  "group": "영어",
+  "total": 57,
+  "got": 57,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 영어",
+  "group": "영어",
+  "total": 184,
+  "got": 184,
+  "fresh": 11
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 영어",
+  "group": "영어",
+  "total": 85,
+  "got": 85,
+  "fresh": 6
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 영어",
+  "group": "영어",
+  "total": 7,
+  "got": 7,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 영어",
+  "group": "영어",
+  "total": 117,
+  "got": 117,
+  "fresh": 10
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 영어",
+  "group": "영어",
+  "total": 31,
+  "got": 31,
+  "fresh": 13
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 영어",
+  "group": "영어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 영어",
+  "group": "영어",
+  "total": 29,
+  "got": 29,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 영어",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 영어",
+  "group": "영어",
+  "total": 144,
+  "got": 144,
+  "fresh": 50
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 영어교육",
+  "group": "영어",
+  "total": 169,
+  "got": 169,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 영어교육",
+  "group": "영어",
+  "total": 28,
+  "got": 28,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 영어교육",
+  "group": "영어",
+  "total": 34,
+  "got": 34,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 영어교육",
+  "group": "영어",
+  "total": 35,
+  "got": 35,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 영어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 영어교육",
+  "group": "영어",
+  "total": 10,
+  "got": 10,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 영어교육",
+  "group": "영어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 영어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 영어교육",
+  "group": "영어",
+  "total": 9,
+  "got": 9,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 영어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 영어교육",
+  "group": "영어",
+  "total": 16,
+  "got": 16,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 EFL",
+  "group": "영어",
+  "total": 116,
+  "got": 116,
+  "fresh": 6
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 EFL",
+  "group": "영어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT EFL",
+  "group": "영어",
+  "total": 73,
+  "got": 73,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 EFL",
+  "group": "영어",
+  "total": 6,
+  "got": 6,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 EFL",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 EFL",
+  "group": "영어",
+  "total": 19,
+  "got": 19,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 EFL",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM EFL",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT EFL",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 EFL",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 EFL",
+  "group": "영어",
+  "total": 36,
+  "got": 36,
+  "fresh": 10
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 English",
+  "group": "영어",
+  "total": 420,
+  "got": 420,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 English",
+  "group": "영어",
+  "total": 30,
+  "got": 30,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT English",
+  "group": "영어",
+  "total": 184,
+  "got": 184,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 English",
+  "group": "영어",
+  "total": 66,
+  "got": 66,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 English",
+  "group": "영어",
+  "total": 7,
+  "got": 7,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 English",
+  "group": "영어",
+  "total": 114,
+  "got": 114,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 English",
+  "group": "영어",
+  "total": 28,
+  "got": 28,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM English",
+  "group": "영어",
+  "total": 5,
+  "got": 5,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT English",
+  "group": "영어",
+  "total": 23,
+  "got": 23,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 English",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 English",
+  "group": "영어",
+  "total": 139,
+  "got": 139,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 외국어교육",
+  "group": "영어",
+  "total": 17,
+  "got": 17,
+  "fresh": 5
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 외국어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 외국어교육",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 외국어교육",
+  "group": "영어",
+  "total": 4,
+  "got": 4,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 외국어교육",
+  "group": "영어",
+  "total": 6,
+  "got": 6,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 외국어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 외국어교육",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 외국어교육",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 외국어교육",
+  "group": "영어",
+  "total": 10,
+  "got": 10,
+  "fresh": 6
+ },
+ {
+  "field": "keyword",
+  "q": "인공지능 외국어 학습",
+  "group": "영어",
+  "total": 14,
+  "got": 14,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "챗봇 외국어 학습",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 외국어 학습",
+  "group": "영어",
+  "total": 3,
+  "got": 3,
+  "fresh": 1
+ },
+ {
+  "field": "keyword",
+  "q": "생성형 외국어 학습",
+  "group": "영어",
+  "total": 6,
+  "got": 6,
+  "fresh": 2
+ },
+ {
+  "field": "keyword",
+  "q": "딥러닝 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "기계번역 외국어 학습",
+  "group": "영어",
+  "total": 1,
+  "got": 1,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "음성인식 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "LLM 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "챗GPT 외국어 학습",
+  "group": "영어",
+  "total": 2,
+  "got": 2,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "거대언어모델 외국어 학습",
+  "group": "영어",
+  "total": null,
+  "got": 0,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "대화형 외국어 학습",
+  "group": "영어",
+  "total": 8,
+  "got": 8,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT EFL",
+  "group": "영어",
+  "total": 73,
+  "got": 73,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "AI EFL",
+  "group": "영어",
+  "total": 116,
+  "got": 116,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "chatbot English",
+  "group": "영어",
+  "total": 67,
+  "got": 67,
+  "fresh": 3
+ },
+ {
+  "field": "keyword",
+  "q": "generative AI English",
+  "group": "영어",
+  "total": 90,
+  "got": 90,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT Korean",
+  "group": "한국어",
+  "total": 151,
+  "got": 151,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "AI Korean language",
+  "group": "한국어",
+  "total": 646,
+  "got": 646,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT Chinese",
+  "group": "중국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "AI Chinese language",
+  "group": "중국어",
+  "total": 249,
+  "got": 249,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "人工智能 汉语",
+  "group": "중국어",
+  "total": 249,
+  "got": 249,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "ChatGPT 汉语",
+  "group": "중국어",
+  "total": 42,
+  "got": 42,
+  "fresh": 0
+ },
+ {
+  "field": "keyword",
+  "q": "生成式 汉语",
+  "group": "중국어",
+  "total": 47,
+  "got": 47,
+  "fresh": 0
+ }
+]
