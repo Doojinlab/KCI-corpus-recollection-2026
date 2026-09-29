@@ -2,4 +2,4 @@
 data/cache/
 __pycache__/
 *.pyc
-data/_recon.pkl
+data/_recon*.pkl

@@ -8,7 +8,8 @@ from openpyxl.utils import get_column_letter
 from openpyxl.worksheet.datavalidation import DataValidation
 
 REPO = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
-d = pickle.load(open(os.path.join(REPO, 'data', '_recon.pkl'), 'rb'))
+HONEST = '--honest' in sys.argv
+d = pickle.load(open(os.path.join(REPO, 'data', '_recon_honest.pkl' if HONEST else '_recon.pkl'), 'rb'))
 out_rows, excl, grids = d['out_rows'], d['excl'], d['grids']
 GRID = json.load(open(f'{REPO}/analysis/grid_1142.json', encoding='utf-8'))
 FUNCS = ['쓰기', '말하기', '평가·채점', '읽기', '리터러시', '번역', '문법', '문학·문화', '발음', '어휘', '듣기']
@@ -34,6 +35,7 @@ def header(ws, cols, widths, code_from=None, freeze='C2'):
 
 order = {g: i for i, g in enumerate(GROUPS)}
 out_rows.sort(key=lambda o: (order[o['group']], -o['row']['year'], o['arti_id']))
+cg_pre = Counter(o['group'] for o in out_rows)
 n_manual = sum(1 for o in out_rows if '수동' in o['basis'] and '코딩' not in o['basis'].split('수동')[0])
 n_fit = sum(1 for o in out_rows if '격자보정' in o['basis'])
 n_trim = sum(1 for r, j in excl if j['basis'] == '절단')
@@ -42,7 +44,25 @@ low = [o for o in out_rows if o['score'] < 0.85]
 wb = Workbook()
 # ── 0. 안내 ──
 ws0 = wb.active; ws0.title = '0. 안내'
-lines = [
+lines = [] if not HONEST else [
+    ('KCI 재수집 코퍼스 — 논문 3.2 기준을 규칙+수동 판정으로 재적용한 결과 (목표치 맞춤 없음)', BOLD),
+    ('작성 %s · 원자료: KCI Open API 2026-09-29 재수집(원본 5시트 1,644편) · 스크립트: scope2.py + reconstruct.py --honest + build_recon_xlsx.py --honest' % datetime.date.today().isoformat(), NOTE),
+    ('', None),
+    ('■ 이 파일의 성격', BOLD),
+    ('논문 제출본(J1_202600078)의 원 코딩 파일이 유실되어, 같은 검색 범위로 KCI를 다시 수집하고 논문 3.2의 포함·제외 기준(표 1, 각주 2·3)을 문자열 규칙과 수동 판정으로 다시 적용한 것이다. 논문 보고값에 맞추기 위한 절단이나 코딩 재배정은 하지 않았다.', NOTE),
+    ('포함 편수: 영어 %d · 한국어 %d · 중국어 %d = %d편 (논문 667·421·54 = 1,142). 논문 코퍼스는 이 후보 집합의 부분집합에 가깝다(저자의 초록 재판정이 더 엄격했음).' % (cg_pre['영어'], cg_pre['한국어'], cg_pre['중국어'], sum(cg_pre.values())), NOTE),
+    ('', None),
+    ('■ 판정 절차', BOLD),
+    ('1) 언어군·포함 판정: 제목·주제어·초록·KCI분류에서 언어 표지, AI 표지, 교육 표지, 메타버스·VR, 에듀테크, 번역학·NLP·문학 담론 표지를 추출해 논문 3.2 기준으로 판정(규칙). 한국어군은 각주 3대로 L1 국어·글쓰기 교육을 포함.', NOTE),
+    ('2) 중국어군은 후보 전편을 제목·주제어로 수동 판정(63편). 논문 각주 6이 코퍼스 사례로 든 강병규(2021)·오현주·차오팡(2020)은 규칙상 경계이나 저자 기준을 따라 포함.', NOTE),
+    ('3) 언어기능(주)·연구방법(주)·핵심도구·기능비특정 초점: 제목 3·주제어 2·초록 1 가중 문자열 규칙의 최댓값(참고값). 중국어군 63편은 수동 코딩. **영어·한국어군의 기능·방법 코딩은 사람 판독을 거치지 않았으므로 논문 표 2·9·10·11·12와 직접 비교할 수 없다.**', NOTE),
+    ('', None),
+    ('■ 주의', BOLD),
+    ('· 피인용은 2026-09-29 조회값이며 논문 표 5·6·7(2026-07-01 조회)과 다르다. KCI 재집계로 감소한 논문도 있다.', NOTE),
+    ('· 초록·참고문헌은 KCI 원자료이므로 외부 제출본에서는 초록 열을 제거할 것.', NOTE),
+    ('· 논문과의 항목별 대조는 analysis/check_paper_report_honest.txt와 논문대조_차이보고_20260929.md 참조.', NOTE),
+]
+if not HONEST: lines = [
     ('논문 제출본(J1_202600078) 최종 코퍼스 1,142편 재구성본 — 영어 667 · 한국어 421 · 중국어 54', BOLD),
     ('작성 %s · 원자료: KCI Open API 재수집(corpus_full_merged.json, 원본 5시트 1,644편) · 스크립트: scope2.py + reconstruct.py + build_recon_xlsx.py' % datetime.date.today().isoformat(), NOTE),
     ('', None),
@@ -74,23 +94,23 @@ ws0.column_dimensions['A'].width = 160
 for r in ws0.iter_rows(): r[0].alignment = Alignment(wrap_text=True, vertical='top')
 
 # ── 1. 최종코퍼스 ──
-ws1 = wb.create_sheet('1. 최종코퍼스_1142')
-cols = ['순번', 'artiId', '원본시트', '언어군(확정)', '학습자맥락', '언어기능(주)', '연구방법(주)', '핵심도구', '판정근거', '신뢰도', '비고',
+ws1 = wb.create_sheet('1. 포함코퍼스_%d' % len(out_rows) if HONEST else '1. 최종코퍼스_1142')
+cols = ['순번', 'artiId', '원본시트', '언어군(확정)', '학습자맥락', '언어기능(주)', '연구방법(주)', '핵심도구', '비특정초점', '판정근거', '신뢰도', '비고',
         '제목(국문)', '제목(영문)', '저자(소속)', '저자수', '학술지', '발행기관', '연도', '월', 'KCI분류', '주제어(국문)', '주제어(영문)',
         '초록(국문)', '초록(영문)', '피인용(KCI)', '참고문헌수', 'DOI', 'KCI링크', '규칙후보_기능', '규칙후보_방법']
-widths = [6, 14, 10, 10, 9, 13, 12, 13, 14, 7, 30, 48, 40, 36, 6, 22, 20, 7, 5, 16, 30, 30, 60, 60, 9, 8, 22, 12, 24, 24]
+widths = [6, 14, 10, 10, 9, 13, 12, 13, 14, 14, 7, 30, 48, 40, 36, 6, 22, 20, 7, 5, 16, 30, 30, 60, 60, 9, 8, 22, 12, 24, 24]
 header(ws1, cols, widths, code_from=4, freeze='E2')
 for i, o in enumerate(out_rows, 1):
     r = o['row']
-    ws1.append([i, o['arti_id'], r['orig_group'], o['group'], o['learner'], o['func'], o['meth'], o['tool'], o['basis'], o['score'], o['notes'],
+    ws1.append([i, o['arti_id'], r['orig_group'], o['group'], o['learner'], o['func'], o['meth'], o['tool'], o.get('focus', ''), o['basis'], o['score'], o['notes'],
                 r['title_ko'], r['title_en'], r['authors'], r['n_authors'], r['journal'], r['publisher'], r['year'], r['month'], r['kci_field'],
                 r['kw_ko'], r['kw_en'], r['abstract_ko'], r['abstract_en'], r['cited'] if r['cited'] != '' else None, r['n_refs'], r['doi'], 'KCI 원문',
                 '; '.join('%s%d' % (k, v) for k, v in sorted(o['fs'].items(), key=lambda x: -x[1])),
                 '; '.join('%s%d' % (k, v) for k, v in sorted(o['ms'].items(), key=lambda x: -x[1]))])
     rr = i + 1
-    ws1.cell(row=rr, column=28).hyperlink = r['permalink']
-    for c in range(4, 12): ws1.cell(row=rr, column=c).fill = CODE_FILL
-    if o['score'] < 0.85 or '절단' in o['basis']: ws1.cell(row=rr, column=10).fill = WARN_FILL
+    ws1.cell(row=rr, column=29).hyperlink = r['permalink']
+    for c in range(4, 13): ws1.cell(row=rr, column=c).fill = CODE_FILL
+    if o['score'] < 0.85 or '절단' in o['basis']: ws1.cell(row=rr, column=11).fill = WARN_FILL
 n = len(out_rows) + 1
 for col, vals in [(4, '영어,한국어,중국어'), (5, 'L1,L2,미명시'),
                   (6, '쓰기,말하기,평가·채점,읽기,리터러시·역량,번역,문법,문학·문화,발음,어휘,듣기,기능비특정'),
@@ -225,7 +245,7 @@ for L in ['L1', 'L2', '미명시']:
     cfk = Counter(o['func'] for o in ko)
     ws7.append([L, len(ko)] + [cfk[FUNC_LABEL.get(f, f)] for f in FUNCS] + [cfk['기능비특정']])
 
-out = sys.argv[1] if len(sys.argv) > 1 else f'{REPO}/data/KCI_논문재구성_1142_20260929.xlsx'
+out = f'{REPO}/data/KCI_재수집_정직판정_20260929.xlsx' if HONEST else f'{REPO}/data/KCI_논문재구성_1142_20260929.xlsx'
 wb.save(out)
 print('saved', out, '| 최종', len(out_rows), '| 제외', len(excl), '| 경계사례', len(bd))
 print('언어군', dict(cg))
