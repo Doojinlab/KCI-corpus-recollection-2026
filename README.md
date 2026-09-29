@@ -39,6 +39,11 @@ KCI Open API로 후보 코퍼스를 다시 수집하고 상세 정보를 보강�
 | `analysis/keyword_concepts.json` | 20개 핵심 개념 키워드 정규화표(논문 각주 10 복원) |
 | `analysis/rejudge_summary_20260930.md` | 확정 코퍼스 항목별 집계와 논문 대조 |
 | `analysis/keyword_diffusion_20260930.md` | 주제 확산 시차 재산출과 규모 보정 결과 |
+| `원고수정_수치대조표_1166_20260930.md` | **원고 수정용.** 제출본의 모든 수치를 절 순서대로 원문→수정으로 정리, hwp에 옮겨 칠 표 본문과 초록 재작성 초안 포함 |
+| `scripts/rejudge/tables_4to8.py` | 표 4(공저+중심성)·표 5·6·7(피인용)·표 8(참고문헌: 국내·영문·중문, 학술지명 기준 분야) 재산출 |
+| `scripts/rejudge/rarefaction_final.py` | 확정 격자로 희박화·초기하 재분석(analysis/rarefaction.py의 일반화판) |
+| `scripts/rejudge/build_revision_sheet.py` | 위 산출물을 모아 원고 수정 대조표 생성 |
+| `analysis/tables_4to8_1166_20260930.md`, `analysis/rarefaction_1166_20260930.md` | 표 4~8, 희박화·초기하 결과 |
 | `코퍼스확정_20260930.md` | 확정 보고: 기준·편수 변화·유지/수정할 주장·저자 확인 사항 |
 | `scripts/reconstruct_1142/` | scope2.py(규칙) → reconstruct.py [--honest] → build_recon_xlsx.py [--honest] → check_paper.py(논문 전 항목 대조) |
 | `analysis/paper_targets.json` | 제출본 PDF에서 전사한 논문 보고값(표 2~12, 그림 2·3, 각주 2 등) |
