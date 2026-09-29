@@ -25,13 +25,15 @@ KCI Open API로 후보 코퍼스를 다시 수집하고 상세 정보를 보강�
 | `analysis/rarefaction.py` | 심사위원 2 요구 재분석: 희박화(36·39·45·54편)와 초기하 검정, 임계값 민감도 |
 | `data/KCI_재수집_정직판정_20260929.xlsx` | **심사위원 제출용.** 논문 3.2 기준을 규칙+수동 판정으로 재적용한 코퍼스 1,312편(영 746·한 503·중 63). 목표치 맞춤 없음. 초록 열은 제출 전 삭제 |
 | `data/KCI_논문재구성_1142_20260929.xlsx` | 참고용(제출 금지). 논문 보고값(667/421/54, 그림 6 격자)에 맞춰 절단·재배정한 것 |
-| `data/KCI_코퍼스확정_1177_20260930.xlsx` | **심사위원 제출용(최신).** 1,644편 전편 초록 재판정·재코딩 확정 코퍼스 1,177편(영 729·한 378·중 70). 대학 교양 제외 반영. 초록 열 없음 |
-| `data/KCI_코퍼스확정_1177_20260930_초록포함.xlsx` | 저자 검수용(초록 포함). 경계검수 시트에 저자 확정 기입 열 |
+| `data/KCI_코퍼스확정_1166_20260930.xlsx` | **심사위원 제출용(최신).** 1,644편 전편 초록 재판정·재코딩 확정 코퍼스 1,166편(영 711·한 386·중 69). 대학 교양 제외 반영. 초록 열 없음 |
+| `data/KCI_코퍼스확정_1166_20260930_초록포함.xlsx` | 저자 검수용(초록 포함). 경계검수 시트에 저자 확정 기입 열 |
 | `data/rejudge/CODING_GUIDE.md` | 재판정·코딩 지침(저자 결정 반영: [AI+언어교육]만 포함, 국어 교과 담론형 제외) |
 | `data/rejudge/batches/`, `out/` | 배치 입력 60편 단위 28개와 배치별 판정 결과 |
-| `data/rejudge/merged_20260930b.json` | 판정·코딩 병합 원자료(1,644편, 대학 교양 제외 반영) |
+| `data/rejudge/merged_1166_20260930.json` | 판정·코딩 병합 원자료(1,644편, 대학 교양 제외 반영) |
 | `data/rejudge/l1/` | 한국어군 L1 145편 교양 재판정: 규칙 `L1_RULE.md`, 입력 `L1-L3.json`, 판정 `out/` |
-| `scripts/rejudge/apply_l1.py` | 교양 제외 판정을 반영해 확정 코퍼스·엑셀·요약 재생성 |
+| `scripts/rejudge/apply_l1.py` | 교양 제외 판정을 반영(1,177편) |
+| `data/rejudge/r3/` | 3차 판정: 규칙 `R3_RULE.md`, 입력 `AIDT.json`·`KYO.json`, 판정 `out/` |
+| `scripts/rejudge/apply_r3.py` | AI디지털교과서 제외·평가도구 포함을 반영해 확정본(1,166편) 생성 |
 | `scripts/rejudge/merge_rejudge.py` | 배치 병합·값 검증·엑셀·요약 생성 |
 | `scripts/rejudge/keyword_diffusion.py` | 표 3·그림 4·4.3 재산출(규모 맞춤 최초 출현연도 포함) |
 | `analysis/keyword_concepts.json` | 20개 핵심 개념 키워드 정규화표(논문 각주 10 복원) |
@@ -78,7 +80,8 @@ KCI Open API로 후보 코퍼스를 다시 수집하고 상세 정보를 보강�
 ```bash
 python scripts/rejudge/merge_rejudge.py --date 20260930 --xlsx   # 배치 판정 병합·검증(1,232편)
 python scripts/rejudge/apply_l1.py --date 20260930b              # 대학 교양 제외 반영(1,177편)
-python scripts/rejudge/keyword_diffusion.py --date 20260930b --corpus data/rejudge/merged_20260930b.json
+python scripts/rejudge/apply_r3.py --date 1166_20260930          # AIDT 제외·평가도구 포함(1,166편)
+python scripts/rejudge/keyword_diffusion.py --date 1166_20260930 --corpus data/rejudge/merged_1166_20260930.json
 ```
 
 ### 재수집(2026-09-29)
