@@ -1,0 +1,29 @@
+최윤희(2023), 영어 작문 과정에 활용한 ChatGPT에 대한 한국인 예비영어교사의 인
+식 탐색 , 『영어교과교육』 22권 2호, 243-262.
+한송희(2023), 대화형 생성 AI(인공지능) ChatGPT를 활용한 한국어 말하기 연구: 역
+할극중심으로, Talk-to-ChatGPT사용하여, AIPRM-for-ChatGPT 활용까지
+, 『학습자중심교과교육연구』 23권 18호, 651-674.
+황요한(2023), PROMPT 리터러시 시대의 도래에 관한 고찰: 영어교육을 위한
+ChatGPT와 DALL-E의 활용을 중심으로 , 『영어교과교육』 22권 2호,
+263-288.
+황정아, 노채환(2026), 인공지능(AI)을 활용한 한국어교육 연구 동향 , 『어문학』172
+집, 387-427.
+Callon, M., Courtial, J. P., & Laville, F.(1991), Co-word analysis as a tool for describing
+the network of interactions between basic and technological research: The case of
+polymer chemistry , 『Scientometrics』 22(1), 155-205.
+Cohen, J.(1960), A coefficient of agreement for nominal scales , 『Educational and
+Psychological Measurement』 20(1), 37-46.
+Devlin, J., Chang, M. W., Lee, K., & Toutanova, K.(2019), BERT: Pre-training of deep
+bidirectional transformers for language understanding , 『Proceedings of
+NAACL-HLT 2019』, 4171-4186.
+Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M.(2021), How to conduct
+a bibliometric analysis: An overview and guidelines , 『Journal of Business
+Research』 133, 285-296.
+Landis, J. R., &Koch, G. G.(1977), The measurement of observeragreement for categorical
+data , 『Biometrics』 33(1), 159-174.
+Long, M. H.(1996), The role of the linguistic environment in second language acquisition ,
+W. C. Ritchie &T. K. Bhatia(Eds.), 『Handbookof SecondLanguage Acquisition』,
+San Diego: Academic Press, 413-468.
+Swain, M.(1985), Communicative competence: Some roles of comprehensible input and
+comprehensible output in its development , S. M. Gass & C. G. Madden(Eds.),
+『Input in SecondLanguage Acquisition』, Rowley, MA: NewburyHouse, 235-253.

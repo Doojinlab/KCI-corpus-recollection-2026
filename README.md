@@ -39,6 +39,7 @@ KCI Open API로 후보 코퍼스를 다시 수집하고 상세 정보를 보강�
 | `analysis/keyword_concepts.json` | 20개 핵심 개념 키워드 정규화표(논문 각주 10 복원) |
 | `analysis/rejudge_summary_20260930.md` | 확정 코퍼스 항목별 집계와 논문 대조 |
 | `analysis/keyword_diffusion_20260930.md` | 주제 확산 시차 재산출과 규모 보정 결과 |
+| `원고수정_교체목록_1166_20260930.md` | **hwp 직접 수정용.** 원고 36쪽 전체의 교체 항목 122개(찾기 문자열·원문·수정문·근거), 먼저 정할 저자 결정 10가지. 항목 원자료는 `analysis/manuscript_edit_items_1166_20260930.json` |
 | `원고수정_수치대조표_1166_20260930.md` | **원고 수정용.** 제출본의 모든 수치를 절 순서대로 원문→수정으로 정리, hwp에 옮겨 칠 표 본문과 초록 재작성 초안 포함 |
 | `scripts/rejudge/tables_4to8.py` | 표 4(공저+중심성)·표 5·6·7(피인용)·표 8(참고문헌: 국내·영문·중문, 학술지명 기준 분야) 재산출 |
 | `scripts/rejudge/rarefaction_final.py` | 확정 격자로 희박화·초기하 재분석(analysis/rarefaction.py의 일반화판) |
@@ -49,8 +50,19 @@ KCI Open API로 후보 코퍼스를 다시 수집하고 상세 정보를 보강�
 | `analysis/paper_targets.json` | 제출본 PDF에서 전사한 논문 보고값(표 2~12, 그림 2·3, 각주 2 등) |
 | `논문대조_차이보고_20260929.md` | 재수집본과 논문의 항목별 차이 + 원고 수정 범위 |
 | `RECONSTRUCTION_1142_20260929.md` | (참고용 재구성본의 방법 기록) |
-| `manuscript/J1_202600078.hwp`, `.hwp.pdf` | 제출본 원고(hwp)와 PDF. 수정본은 별도 파일명으로 저장 |
+| `manuscript/J1_202600078.hwp`, `.hwp.pdf` | 제출본 원고(hwp)와 hwp에서 내보낸 PDF(PDF 쪽수 = 한글 쪽수). 원본은 고치지 않는다 |
+| `manuscript/J1_202600078_수정본.hwp` | **수정 작업 파일.** 제출본의 사본(2026-09-30). 저자가 한글에서 교체 목록을 보며 직접 고친다 |
+| `manuscript/J1_202600078.pdf` | 투고 시스템의 제출본 PDF |
+| `manuscript/이전판/` | 투고 전 원고 판(cys 260718, 하두진 수정, 최종 hwp·pdf) |
+| `manuscript/참고/` | 학술지 논문 모집 자료 |
+| `manuscript/text/` | 제출본 PDF 텍스트 추출본(`-raw`·기본·`-layout` 전문, 쪽별 `p01–p36.txt`). 교체 목록의 찾기 문자열 검사에 쓴다 |
+| `scripts/manuscript/` | 교체 목록 도구: `extract_text.py`(추출) → `workflow_edit_list.js`(6구간 추출·독립 검증 워크플로) → `build_editlist.py`(목록 생성), `check_keys.py`(찾기 문자열 유일성), `sweep.py`(누락 숫자), `numaudit.py`·`verify_new_numbers.py`(새 수치 재계산) |
+| `analysis/manuscript_edit_items_raw_1166_20260930.json`, `_notes_…json` | 워크플로 원자료(중복 제거 전 126항목)와 에이전트가 남긴 저자 확인 사항·검증 변경 기록 |
 | `review_response/J1_202600078_심사답변서.html` | 심사위원 3인 의견에 대한 항목별 답변 초안(제출본 기준 2판) |
+| `review_response/심사의견/` | 심사위원 1·2·3 심사의견 원본(pdf, hwpx) |
+| `review_response/심사답변.docx` | 심사답변 초기 문서 |
+| `input/KCI_corpus_정리.pdf` | 1차 수집본의 PDF판 |
+| `CLAUDE.md`, `NEXT_STEPS.md` | 다른 PC에서 이어서 작업하기 위한 인계 문서(현재 상태·결정·다음 작업) |
 
 ## 수집 범위와 절차
 
@@ -107,5 +119,6 @@ python analysis/rarefaction.py
 ## 주의
 
 - `.env`(인증키)는 커밋하지 않는다.
-- 초록·참고문헌은 KCI 원자료이므로 외부 재배포 시 KCI 이용약관을 확인한다. 이 저장소는 비공개로 둔다.
+- 이 저장소는 저자 결정(2026-09-30)으로 **공개** 상태다. 원고·심사의견·KCI 초록이 들어 있으므로 링크 공유 범위에 유의한다.
+- 초록·참고문헌은 KCI 원자료이므로 외부 재배포 시 KCI 이용약관을 확인한다.
 - 피인용 수는 조회일 기준이며 논문 표 5·6(2026-07-01 조회)과 다를 수 있다.

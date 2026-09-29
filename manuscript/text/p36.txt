@@ -1,0 +1,24 @@
+＜Abstract
+＞
+Current Status and Research Gaps in AI-Assisted Chinese Language Education:
+A Bibliometric and Network Comparison with English and Korean
+Hong, Gildong
+This study compared AI-assisted language education research in English, Korean, and Chinese
+within a single analytical framework. Records indexed in the Korea Citation Index (KCI) from 2020
+to June 2026 were collected through the KCI Open API and refined by a double-filtering procedure
+—keyword coverage verification and abstract-based re-screening—yielding a corpus of 1,142 articles
+identified under these search conditions (667 English, 421 Korean, 54 Chinese). Uniform
+classification criteria were applied to build an 88-cell task-by-method grid, supplemented by trend,
+topic-emergence, co-authorship, and citation analyses. Chinese-language studies accounted for 4.7%
+of the corpus; within this subcorpus, 61.1% were single-authored and development and
+performance-evaluation studies constituted 59.3%, whereas only one study experimentally compared
+learning outcomes. Grid occupancy was 72.7% for English, 62.5% for Korean, and 27.3% for
+Chinese: unlike English, concentrated in productive skills, and Korean, concentrated in development
+and assessment, the small Chinese corpus was dispersed across many cells without accumulating
+replications. Diffusion-pending coordinates—dense in the comparison groups but with zero or one
+Chinese study—clustered in writing, speaking, and assessment, while 18 of the 88 cells were
+structural gaps unobserved in all three domains, concentrated in listening and literature/culture. The
+aim is not to rank the three domains but to distinguish coordinates where existing designs can be
+selectively validated from those where new designs suited to Chinese must be developed.
+Key Words: AI-Assisted Language Education, Chinese Language Education, Bibliometric
+Analysis, Keyword Network Analysis, Research Gaps

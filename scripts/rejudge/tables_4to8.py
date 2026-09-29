@@ -102,7 +102,10 @@ for g in G:
     cs = sorted(o['r']['cited'] or 0 for o in by[g]); k = len(cs)
     med[g] = cs[k // 2] if k % 2 else (cs[k // 2 - 1] + cs[k // 2]) / 2
 zero = {g: 100 * sum(1 for o in by[g] if not (o['r']['cited'] or 0)) / len(by[g]) for g in G}
-top10 = sorted(inc, key=lambda o: (-(o['r']['cited'] or 0), o['r']['year']))[:10]
+_rank = sorted(inc, key=lambda o: (-(o['r']['cited'] or 0), o['r']['year']))
+_cut = _rank[9]['r']['cited'] or 0   # 10위 피인용. 동률은 임의로 끊지 않고 모두 싣는다
+top10 = [o for o in _rank if (o['r']['cited'] or 0) >= _cut]
+def rank_of(o): return 1 + sum(1 for x in _rank if (x['r']['cited'] or 0) > (o['r']['cited'] or 0))  # 공동 순위
 def nt(s): return re.sub(r'[\s:：\-–—·,.()（）\'"‘’“”]', '', s or '').lower()
 incn = {nt(o['r']['title_ko']): o for o in inc}
 import difflib
@@ -182,10 +185,10 @@ for g in G:
 L += ['', '연결정도 상위 5인(공저자 수):\n']
 for g in G:
     L.append(f'- {g}: ' + '; '.join(f'{a} ({v})' for a, v in N[g]['top_deg']))
-L += ['', '## 표 5. 피인용 상위 10편 (확정 코퍼스, KCI 2026-09-29 조회)\n',
+L += ['', f'## 표 5. 피인용 상위 10위(동률 포함 {len(top10)}편) (확정 코퍼스, KCI 2026-09-29 조회)\n',
       '| 순위 | 제목 | 연도 | 언어군 | 피인용 |', '|---|---|---|---|---|']
-for i, o in enumerate(top10, 1):
-    L.append(f'| {i} | {(o["r"]["title_ko"] or o["r"]["title_en"])[:60]} | {o["r"]["year"]} | {o["group"]} | {o["r"]["cited"]} |')
+for o in top10:
+    L.append(f'| {rank_of(o)} | {(o["r"]["title_ko"] or o["r"]["title_en"])[:60]} | {o["r"]["year"]} | {o["group"]} | {o["r"]["cited"]} |')
 L += ['', '논문 표 5의 10편이 확정 코퍼스에 있는지:\n', '| 논문 표 5 제목 | 논문 군·피인용 | 확정 코퍼스 |', '|---|---|---|']
 for title, yr, g, c, hit in paper_top:
     L.append(f'| {title[:44]} | {g} {c} | ' + (f'있음 · {hit["group"]} {hit["r"]["cited"]}' if hit else '**없음(제외됨)**') + ' |')

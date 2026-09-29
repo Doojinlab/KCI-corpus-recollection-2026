@@ -50,7 +50,8 @@ def main():
     for r in rows:
         kws = keywords_of(r)
         cs = {c for c in (concepts_of(k) for k in kws) if c}
-        norm = {k for k in kws}
+        # 논문 4.3·각주 10의 방법: 20개 개념에 걸리는 키워드는 개념 id로 동의어 통합, 나머지는 소문자·공백 정규화만
+        norm = {concepts_of(k) or k for k in kws}
         per.append(dict(group=r['group'], year=int(r['year']), concepts=cs, kws=norm))
     # 1) 개념별 언어군 최초 출현연도·편수
     first = {c['id']: {} for c in CONCEPTS}
@@ -67,7 +68,7 @@ def main():
         for g in GROUPS:
             ys = [first[cid][g] for cid in m['concepts'] if g in first[cid]]
             if ys: mod_first[m['name']][g] = min(ys)
-    # 3) 공유 키워드 수 (정규화 키워드 기준, 논문 4.3)
+    # 3) 공유 키워드 수 (개념 통합 + 정규화 키워드 기준, 논문 4.3)
     kwg = {g: set() for g in GROUPS}
     for p in per: kwg[p['group']] |= p['kws']
     cg = {g: set() for g in GROUPS}
