@@ -95,7 +95,7 @@
 - κ: `data/kappa/ai2/`(재판정 지침 `AI2_GUIDE.md`, 입력 `batches/`, 출력 `out/`, 병합 `ai2_merged_1161_20261001.json`), `scripts/rejudge/appendix_d.py`(부록 D 생성), `kappa_compute.py`(축별 κ), `kappa_sample.py`(표본·코딩지), `data/kappa/κ표본_정답키_*.json`(표본의 확정 판정값). 연구자 코딩지(선택)는 논문 폴더 `κ표본_코딩지_1161_20261001_연구자1.xlsx`·`_연구자2.xlsx`
 - 교체 목록 도구: `scripts/manuscript/`
   - 순서는 `extract_text.py` → `workflow_edit_list.js` → `build_editlist.py`
-  - 검사 도구는 `check_keys.py`(찾기 문자열), `sweep.py`(누락), `numaudit.py`·`verify_new_numbers.py`(새 수치)
+  - 검사 도구는 `check_keys.py`(찾기 문자열), `sweep.py`(누락), `numaudit.py`·`verify_new_numbers.py`(새 수치), `hwp_inspect.py`(hwp 구역·각주 모양 읽기 전용 점검)
 
 ## 환경 메모 (Windows)
 
