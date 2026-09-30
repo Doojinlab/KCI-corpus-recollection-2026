@@ -53,6 +53,46 @@ pend = sorted([(lead[(f, m)], f, m) for f in FUNCS for m in METHS if grid['중�
 ex_reason = Counter(r['reason'] for r in exc)
 ko_learner = Counter(r['learner'] for r in by['한국어'])
 
+
+# 주제 출현 시차의 규모 보정 판정: 두 비교군 축소 분포(5–95%)와 모두 비교
+def lag_out(mname):
+    zy = KD['module_first_year'][mname].get('중국어'); sm = KD['size_matched'][mname]
+    return [g for g in ('영어', '한국어') if zy and sm.get(g) and zy > sm[g]['p95']]
+
+
+LAG = {m: lag_out(m) for m in KD['module_first_year']}
+lag_both = [m for m, o in LAG.items() if len(o) == 2]
+lag_part = [(m, o[0]) for m, o in LAG.items() if len(o) == 1]
+EN_MOD = {'자동평가·피드백': 'automated assessment and feedback', '음성·발음(음성인식·TTS)': 'speech and pronunciation',
+          '리터러시(AI·디지털·프롬프트)': 'AI literacy', '정책·에듀테크(AI 디지털교과서)': 'policy and edtech'}
+
+
+def lag_ko():
+    if lag_both:
+        return f'주제 출현 시차 역시 대부분 규모 효과로 설명되었고, {"·".join(lag_both)} 영역만 규모를 통제한 뒤에도 두 비교군보다 늦었다. '
+    if lag_part:
+        return '주제 출현 시차도 대부분 규모 효과로 설명되었으며, ' + ', '.join(f'{m}은 {g}군과 비교할 때만 늦었다' for m, g in lag_part) + '. '
+    return '주제 출현 시차도 규모 효과로 설명되었다. '
+
+
+def lag_en():
+    if lag_both:
+        return ('Most apparent lags in topic emergence were likewise explained by corpus size; only '
+                + ', '.join(EN_MOD.get(m, m) for m in lag_both) + ' remained delayed relative to both comparison groups after size matching. ')
+    if lag_part:
+        return ('Apparent lags in topic emergence were also largely explained by corpus size; '
+                + '; '.join(f'{EN_MOD.get(m, m)} lagged only behind {"English" if g == "영어" else "Korean"}' for m, g in lag_part) + '. ')
+    return 'Apparent lags in topic emergence were likewise explained by corpus size. '
+
+
+def lag_row():
+    if lag_both:
+        return f'여섯 주제군 가운데 {"·".join(lag_both)}만 두 비교군 모두 대비 실질 지연이고, 나머지는 규모 효과로 설명된다'
+    if lag_part:
+        return (f'여섯 주제군 가운데 {len(LAG) - len(lag_part)}개의 "중국어 지연"은 두 비교군 모두의 규모 기대 범위 안에 있어 규모 효과로 설명되고, '
+                + ', '.join(f'{m}은 {g}군 대비로만 늦다(경계 결과)' for m, g in lag_part))
+    return '여섯 주제군의 "중국어 지연"은 모두 규모 효과로 설명된다'
+
 f1 = lambda x: f'{x:.1f}'
 L = []
 A = L.append
@@ -62,7 +102,9 @@ A('모든 새 값은 `scripts/rejudge/build_revision_sheet.py`가 데이터에�
   '표는 hwp에 옮겨 칠 수 있게 원고와 같은 형식으로 만들었다.\n')
 A('**확정 코퍼스**: ' + f'{N:,}편 = 영어 {n["영어"]} · 한국어 {n["한국어"]} · 중국어 {n["중국어"]} (제외 {len(exc)}편, 후보 {len(merged):,}편)\n')
 A('**적용한 저자 결정**: [AI+언어교육] 융합만 대상. 국어 교과 담론형 제외, 대학 교양 제외, AI 디지털교과서 제외, '
-  '통번역 수업은 AI를 번역 교육에 적용했으면 포함, 문법·NLP는 교육적 적용이 있으면 포함, 자동채점·화법 평가 도구는 교양 맥락이어도 포함. '
+  '통번역 수업은 AI를 번역 교육에 적용했으면 포함, 문법·NLP는 교육적 적용이 있으면 포함, 자동채점·화법 평가 도구는 교양 맥락이어도 포함, '
+  '여러 언어를 함께 다룬 복수언어 연구는 제외(대상 언어를 명시하지 않은 연구는 언어 비특정으로 제외). '
+  '모든 논문은 영어·한국어·중국어 세 언어 범주로만 구분한다. '
   'κ는 새로 계산할 예정이라 이 대조표에서 다루지 않는다.\n')
 
 A('## 0. 수정의 성격 — 숫자 교체와 서술 재작성을 구분한다\n')
@@ -73,7 +115,7 @@ A('| **서술 재작성** | 국문·영문 초록, 5.1 격자 점유율 문단, 
 A('| **서술 재작성** | 4.2 그림 3 문단의 "중국어군은 단 1편" 대비 | '
   f'중국어 실험연구는 {mc["중국어"]["실험연구"]}편({f1(pct(mc["중국어"]["실험연구"], n["중국어"]))}%)으로 한국어군({f1(pct(mc["한국어"]["실험연구"], n["한국어"]))}%)과 같은 수준이다. '
   f'초기하 검정에서도 한국어군 대비 P={RF["hyper"]["한국어"]["p_exp_le"]:.2f}로 차이가 없고, 영어군 대비로만 유의하다 |')
-A('| **서술 재작성** | 4.3 표 3 해석, 각주 11 | 여섯 주제군 중 다섯의 "중국어 지연"은 규모 효과로 설명된다. 자동평가·피드백만 실질 지연이다 |')
+A(f'| **서술 재작성** | 4.3 표 3 해석, 각주 11 | {lag_row()} |')
 A('| **서술 재작성** | 3.1 각주 3(L1 범위), 각주 6 | 저자 결정에 따라 포함 범위가 바뀌었고, 각주 6의 두 논문은 코퍼스 밖이다 |')
 A('| 숫자 교체 | 나머지 전부 | 방향은 같고 값만 바뀐다 |\n')
 
@@ -96,7 +138,7 @@ A('> 본 연구는 KCI에 축적된 AI 활용 언어교육 연구를 영어·한
   f'학습 성과를 비교한 실험연구는 {mc["중국어"]["실험연구"]}편에 그쳤다. '
   f'규모를 통제한 희박화 분석에서 중국어군의 격자 점유는 같은 편수의 영어·한국어 표본과 다르지 않았으나, 연구방법 구성은 영어군과 뚜렷이 달라 '
   f'실험연구가 적고 개발·성능평가에 집중되었다(초기하 검정 P<0.0001). 이 구성은 한국어군과 유사하였다. '
-  f'주제 출현 시차 역시 대부분 규모 효과로 설명되었고, 자동평가·피드백 영역만 규모를 통제한 뒤에도 뚜렷한 지연이 남았다. '
+  f'{lag_ko()}'
   f'비교군에는 두텁게 축적되었으나 중국어군에는 0~1편에 그친 확산대기 좌표는 쓰기·말하기·평가에 몰렸고, 세 영역 모두에서 관찰되지 않은 구조공백은 88칸 중 {RF["struct"]}칸으로 듣기에 가장 많았다. '
   '본 연구는 우열을 판정하려는 것이 아니라 기존 연구 설계를 선택적으로 타당화할 좌표와 중국어의 맥락에 맞는 설계를 새로 개발할 좌표를 구분하여, 후속 연구가 검토할 지점을 제시하는 데 목적이 있다.\n')
 A('**영문 Abstract 재작성 초안**\n')
@@ -108,7 +150,7 @@ A('> This study compared AI-assisted language education research in English, Kor
   f'performance-evaluation studies constituted {f1(zh_build)}%, whereas only {mc["중국어"]["실험연구"]} studies experimentally compared learning outcomes. '
   'Rarefaction showed that the Chinese grid occupancy did not differ from that of size-matched English and Korean samples, '
   'but the method composition differed sharply from English—fewer experiments and more development and performance evaluation (hypergeometric P<0.0001)—while resembling Korean. '
-  'Most apparent lags in topic emergence were likewise explained by corpus size; only automated assessment and feedback remained substantially delayed after size matching. '
+  f'{lag_en()}'
   'Diffusion-pending coordinates—dense in the comparison groups but with zero or one Chinese study—clustered in writing, speaking, and assessment, '
   f'while {RF["struct"]} of the 88 cells were structural gaps unobserved in all three domains, most frequently in listening. '
   'The aim is not to rank the three domains but to distinguish coordinates where existing designs can be selectively validated from those where new designs suited to Chinese must be developed.\n')
@@ -122,12 +164,16 @@ A(f'| "이후 교육맥락이 부재한 순수 기술연구 등을 수동으로 
 A('### 각주 2 — 제외 사유 (원문 189편 → 수정)\n')
 A('| 사유 | 원문 편수 | 수정 편수 |\n|---|---|---|')
 paper_fn2 = PT['footnote2_exclusions']
-order = ['제2외국어', '언어비특정', '교육맥락없음', '메타버스VR', '교양교육', '번역품질', '국어교과담론', '비AI에듀테크', 'AI디지털교과서', 'AI신호부재', '기타']
-label = {'제2외국어': '영·한·중이 아닌 제2외국어', '언어비특정': '언어 비특정 일반 연구', '교육맥락없음': '교육 맥락 없는 순수 NLP·언어학',
+order = ['제2외국어', '언어비특정', '복수언어', '교육맥락없음', '메타버스VR', '교양교육', '번역품질', '국어교과담론', '비AI에듀테크', 'AI디지털교과서', 'AI신호부재', '기타']
+order += [k for k in ex_reason if k not in order]   # 새 사유가 생겨도 합계가 어긋나지 않게
+label = {'제2외국어': '영·한·중이 아닌 제2외국어', '언어비특정': '언어 비특정 일반 연구', '복수언어': '여러 언어를 함께 다룬 복수언어 연구',
+         '교육맥락없음': '교육 맥락 없는 순수 NLP·언어학',
          '메타버스VR': '메타버스·VR', '교양교육': '대학 교양 교육', '번역품질': '교육 맥락 없는 번역 품질', '국어교과담론': '국어 교과 담론형',
          '비AI에듀테크': 'AI를 쓰지 않은 에듀테크', 'AI디지털교과서': 'AI 디지털교과서', 'AI신호부재': 'AI 신호 부재', '기타': '기타'}
 for k in order:
-    A(f'| {label[k]} | {paper_fn2.get(k, "—")} | {ex_reason[k]} |')
+    if k == '복수언어' and not ex_reason[k]:
+        continue
+    A(f'| {label.get(k, k)} | {paper_fn2.get(k, "—")} | {ex_reason[k]} |')
 A(f'| 계 | {paper_fn2["total"]} | {len(exc)} |\n')
 A(f'원문 "번역품질을 이유로 배제된 것은 3편에 불과하여 … 과도하게 배제되었을 가능성은 낮다"는 문장은 수정 편수({ex_reason["번역품질"]}편)와 맞지 않으므로 삭제하거나, '
   '"통번역 수업에 AI를 적용한 연구는 포함하고 학습자·수업 맥락이 없는 번역 품질 연구만 제외했다"로 바꾼다.\n')
@@ -185,8 +231,7 @@ A('## 5. 4.3 표 3·주제 확산\n')
 A('**표 3 주제군별 최초 출현 연도 (옮겨 칠 표)**\n')
 A('| 주제군(모듈) | 영어 | 한국어 | 중국어 | 영→중 시차 | 규모 보정 판정 |\n|---|---|---|---|---|---|')
 for mname, fy in KD['module_first_year'].items():
-    sm = KD['size_matched'][mname].get('영어'); zy = fy.get('중국어')
-    verdict = ('규모 효과' if (zy and sm and zy <= sm['p95']) else '실질 지연')
+    verdict = ('규모 효과' if not LAG[mname] else ('실질 지연(두 비교군 대비)' if len(LAG[mname]) == 2 else f'{LAG[mname][0]}군 대비로만 지연(경계)'))
     gap = (fy['중국어'] - fy['영어']) if ('중국어' in fy and '영어' in fy) else '—'
     A(f'| {mname} | {fy.get("영어", "—")} | {fy.get("한국어", "—")} | {fy.get("중국어", "—")} | {gap}년 | {verdict} |')
 sk = KD['shared_keywords']; ll = KD['leadlag']
@@ -195,7 +240,7 @@ A(f'| 세 언어군이 모두 공유하는 키워드는 16개 | {sk["all3"]}개 
 A(f'| 영어-한국어 90개, 영어-중국어 20개, 한국어-중국어 16개 | 영어-한국어 {sk["en_ko"]}개, 영어-중국어 {sk["en_zh"]}개, 한국어-중국어 {sk["ko_zh"]}개 |')
 A(f'| 시차 중앙값 영어→한국어 1년, 영어→중국어 0.5년, 한국어→중국어 0년 | 영어→한국어 {ll["영어→한국어"][0]:g}년, 영어→중국어 {ll["영어→중국어"][0]:g}년, 한국어→중국어 {ll["한국어→중국어"][0]:g}년 |')
 A('| "교육 현장의 구체적 과제로 전개되는 주제군에서는 중국어군의 최초 출현이 3~5년가량 늦게 관측" | '
-  f'규모를 맞춘 비교(영·한에서 {KD["n_zh"]}편 무작위 추출 2,000회)를 함께 제시하고, 자동평가·피드백만 규모로 설명되지 않는 지연임을 밝힌다. 나머지는 "소규모 코퍼스에서 기대되는 범위"로 서술 |')
+  f'규모를 맞춘 비교(영·한에서 {KD["n_zh"]}편 무작위 추출 2,000회)를 함께 제시한다. {lag_row()}. 규모로 설명되는 주제군은 "소규모 코퍼스에서 기대되는 범위"로 서술하고, 최초 출현 연도는 탐색적 신호로 다룬다 |')
 A('| 각주 10: 20개 개념 정규화 | 정규화표를 부록에 수록(`analysis/keyword_concepts.json`) |\n')
 
 # ── 4.4 표 4 ──────────────────────────────────────────────────────────────
@@ -297,7 +342,7 @@ A(f'| 구조공백 88칸 중 18칸, 듣기와 문학·문화에 집중 | 88칸 �
 
 A('## 9. 부록·신설 권고\n')
 A('- **3.4 신설(규모의 한계)**: 희박화·초기하 결과(`analysis/rarefaction_' + DATE + '.md`)와 주제 출현 규모 보정(`analysis/keyword_diffusion_' + DATE + '.md` 3절)을 요약한다.')
-A('- **부록 A**: 코퍼스 확정 절차와 제외 사유(각주 2 표), 저자 결정 여섯 항목.')
+A('- **부록 A**: 코퍼스 확정 절차와 제외 사유(각주 2 표), 저자 결정 일곱 항목.')
 A('- **부록 B**: 20개 개념 키워드 정규화표.')
 A('- **부록 E**: 한국어군 L1/L2 분리 민감도(심사위원 2-5). 아직 산출하지 않았다.')
 A('- κ(3.3)는 새로 계산할 예정이므로 이 대조표에서 제외했다.')

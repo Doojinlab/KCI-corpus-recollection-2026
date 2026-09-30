@@ -110,7 +110,7 @@ def summarize(merged, problems, missing):
     exc = [m for m in merged if m['include'] == 'N']
     L = []
     L.append(f'# 초록 재판정 결과 요약 ({DATE})\n')
-    L.append(f'판정 대상 {len(merged)}편(1차 수집본 5시트) 중 포함 {len(inc)} · 제외 {len(exc)} · 미판정 {len(missing)}. 검증 문제 {len(problems)}건.\n')
+    L.append(f'판정 대상 {len(merged)}편(1차 수집본) 중 포함 {len(inc)} · 제외 {len(exc)} · 미판정 {len(missing)}. 검증 문제 {len(problems)}건.\n')
     cg = Counter(m['group'] for m in inc)
     L.append('## 1. 언어군 편수 (논문 → 정직 판정본 → 재판정)\n')
     L.append('| 언어군 | 논문 | 규칙 판정(9/29) | 초록 재판정 | 비율 |\n|---|---|---|---|---|')
@@ -118,6 +118,14 @@ def summarize(merged, problems, missing):
     for g in GROUPS:
         L.append(f'| {g} | {PT["groups"][g]} | {prev[g]} | {cg[g]} | {100*cg[g]/max(1,len(inc)):.1f}% |')
     L.append(f'| 계 | {sum(PT["groups"].values())} | {sum(prev.values())} | {len(inc)} | 100% |\n')
+    if merged and 'lang3' in merged[0]:
+        L.append('### 언어 범주 (1차 수집 전체, 영어·한국어·중국어 세 범주)\n')
+        L.append('| 언어 범주 | 포함 | 제외 | 계 |\n|---|---|---|---|')
+        for g in GROUPS + ['해당 없음']:
+            a = sum(1 for m in inc if m['lang3'] == g); b = sum(1 for m in exc if m['lang3'] == g)
+            L.append(f'| {g} | {a} | {b} | {a + b} |')
+        L.append(f'| 계 | {len(inc)} | {len(exc)} | {len(merged)} |\n')
+        L.append('‘해당 없음’은 세 언어에 속하지 않거나(제2외국어) 대상 언어가 없는(언어비특정·복수언어) 제외 논문이다.\n')
     L.append('## 2. 판정 변화\n')
     ch = Counter((m['prev_include'], m['include']) for m in merged if m['include'])
     L.append(f'- 규칙 포함→재판정 제외: {ch[("Y","N")]}편, 규칙 제외→재판정 포함: {ch[("N","Y")]}편, 유지: {ch[("Y","Y")]+ch[("N","N")]}편')
@@ -200,8 +208,10 @@ def build_xlsx(merged, with_abstract):
     wb = Workbook(); ws0 = wb.active; ws0.title = '0. 안내'
     _inc = [r for r in merged if r['include'] == 'Y']
     _cg = Counter(r['group'] for r in _inc)
+    _d = DATE.split('_')[-1]
+    _date = f'{_d[:4]}-{_d[4:6]}-{_d[6:]}' if len(_d) == 8 and _d.isdigit() else _d
     guide = [
-        'KCI 재수집 코퍼스 — 초록 재판정·재코딩 확정본 (2026-09-30)',
+        f'KCI 재수집 코퍼스 — 초록 재판정·재코딩 확정본 ({_date})',
         '논문: AI 활용 중국어교육 연구의 현황과 공백: 영어·한국어교육과의 계량서지·네트워크 비교 (중국언어연구 J1_202600078)',
         '',
         f'확정 코퍼스 {len(_inc):,}편 — 영어 {_cg["영어"]:,} · 한국어 {_cg["한국어"]:,} · 중국어 {_cg["중국어"]:,} (제외 {len(merged)-len(_inc):,}편)',
@@ -215,6 +225,11 @@ def build_xlsx(merged, with_abstract):
         '   ⑥ AI 자동채점·자동피드백·화법 평가 도구를 개발·검증한 연구는 대학 교양 맥락이어도 포함(언어 능력을 평가하는 AI 도구이므로)',
         '   교양 제외는 대상 언어 기준이다. 교양 영작문·교양 중국어처럼 외국어 교과로 개설된 수업은 영어교육·중국어교육 연구이므로 유지했다.',
         '   AIDT도 같은 방식으로 가렸다. AIDT가 배경·맥락일 뿐 실제 대상이 AI 도구의 언어 교수·학습 효과인 연구는 유지했다.',
+        '   ⑦ 복수언어 비교 연구 제외(2026-10-01): 두 개 이상의 언어를 함께 다루거나 비교한 연구는 제외하고, 대상 언어를 명시하지 않은 연구는',
+        '      언어 비특정으로 제외한다. 복수언어 검색 범주로 수집되었더라도 한 언어만 다룬 연구는 그 언어로 분류해 유지했다.',
+        '   언어 범주: 모든 논문은 영어·한국어·중국어 세 범주로만 구분한다. 통·번역 연구도 대상 언어쌍에 따라 세 언어 가운데 하나로 분류했고,',
+        '      여러 언어를 함께 다룬 복수언어 연구는 제외했다. 포함 논문은 분석 언어군이고, 제외 논문은 판정된 대상 언어다.',
+        '      세 언어에 속하지 않거나(제2외국어) 대상 언어가 없는(언어 비특정·복수언어) 제외 논문은 ‘해당 없음’으로 적는다.',
         '3) 코딩 지침: data/rejudge/CODING_GUIDE.md, 교양 판정 data/rejudge/l1/L1_RULE.md, AIDT·평가도구 판정 data/rejudge/r3/R3_RULE.md. 범주 정의는 논문 3.2·4.2·표 9·표 10과 같다.',
         '4) 시트: 1. 포함코퍼스 / 2. 제외 / 3. 경계검수(저자 확인 대상) / 4. 대조표(논문 보고값) / 5. 격자(기능×방법) / 6. 연도×언어군 / 7. 한국어군 L1·L2',
         '5) 주황색 열은 코딩 값, 노란색 열은 저자 검수 표시. "이전판정" 열은 2026-09-29 규칙 판정본(1,312편)의 값으로 변화 추적용이다.',
@@ -225,12 +240,12 @@ def build_xlsx(merged, with_abstract):
     for t in guide: ws0.append([t])
     ws0.column_dimensions['A'].width = 140
     inc = [m for m in merged if m['include'] == 'Y']; exc = [m for m in merged if m['include'] == 'N']
-    base_cols = ['순번', 'artiId', '원본시트', '언어군', '학습자맥락', '언어기능(주)', '연구방법(주)', '핵심도구', '비특정초점', 'AI역할', '논문유형', '신뢰도', '검수대상', '판정메모',
+    base_cols = ['순번', 'artiId', '언어 범주', '언어군', '학습자맥락', '언어기능(주)', '연구방법(주)', '핵심도구', '비특정초점', 'AI역할', '논문유형', '신뢰도', '검수대상', '판정메모',
                  '이전판정', '이전언어군', '제목(국문)', '제목(영문)', '저자(소속)', '저자수', '학술지', '발행기관', '연도', 'KCI분류', '주제어(국문)', '주제어(영문)']
     if with_abstract: base_cols += ['초록(국문)', '초록(영문)']
     base_cols += ['피인용(KCI)', '참고문헌수', 'DOI', 'KCI링크']
     def row_of(i, m):
-        r = [i, m['arti_id'], m['sheet'], m['group'], m['learner'], m['func'], m['meth'], m['tool'], m['focus'], m['ai_role'], m['paper_type'], m['confidence'], m['boundary'], m['note'],
+        r = [i, m['arti_id'], m.get('lang3', m['sheet']), m['group'], m['learner'], m['func'], m['meth'], m['tool'], m['focus'], m['ai_role'], m['paper_type'], m['confidence'], m['boundary'], m['note'],
              m['prev_include'], m['prev_group'], m['title_ko'], m['title_en'], m['authors'], m['n_authors'], m['journal'], m['publisher'], m['year'], m['kci_field'], m['kw_ko'], m['kw_en']]
         if with_abstract: r += [m['abstract_ko'], m['abstract_en']]
         r += [m['cited'], m['n_refs'], m['doi'], m['permalink']]
@@ -240,21 +255,21 @@ def build_xlsx(merged, with_abstract):
         ws1.cell(1, c).font = BOLD; ws1.cell(1, c).fill = ORANGE if 4 <= c <= 11 else (YEL if 12 <= c <= 14 else HEAD)
     for i, m in enumerate(sorted(inc, key=lambda m: (GROUPS.index(m['group']), m['year'], m['arti_id'])), 1): ws1.append(row_of(i, m))
     ws1.freeze_panes = 'E2'; ws1.auto_filter.ref = ws1.dimensions
-    exc_cols = ['순번', 'artiId', '원본시트', '제외사유', '언어군(판단)', '신뢰도', '검수대상', '판정메모', '이전판정', '이전사유', '제목(국문)', '제목(영문)', '학술지', '연도', 'KCI분류', '주제어(국문)'] + (['초록(국문)'] if with_abstract else []) + ['KCI링크']
+    exc_cols = ['순번', 'artiId', '언어 범주', '제외사유', '언어군(판단)', '신뢰도', '검수대상', '판정메모', '이전판정', '이전사유', '제목(국문)', '제목(영문)', '학술지', '연도', 'KCI분류', '주제어(국문)'] + (['초록(국문)'] if with_abstract else []) + ['KCI링크']
     ws2 = wb.create_sheet(f'2. 제외_{len(exc)}'); ws2.append(exc_cols)
     for c in range(1, len(exc_cols) + 1): ws2.cell(1, c).font = BOLD; ws2.cell(1, c).fill = HEAD
-    for i, m in enumerate(sorted(exc, key=lambda m: (m['reason'], m['sheet'], m['year'])), 1):
-        ws2.append([i, m['arti_id'], m['sheet'], m['reason'], m['group'], m['confidence'], m['boundary'], m['note'], m['prev_include'], m['prev_reason'],
+    for i, m in enumerate(sorted(exc, key=lambda m: (m['reason'], m.get('lang3', m['sheet']), m['year'])), 1):
+        ws2.append([i, m['arti_id'], m.get('lang3', m['sheet']), m['reason'], m['group'], m['confidence'], m['boundary'], m['note'], m['prev_include'], m['prev_reason'],
                     m['title_ko'], m['title_en'], m['journal'], m['year'], m['kci_field'], m['kw_ko']] + ([m['abstract_ko']] if with_abstract else []) + [m['permalink']])
     ws2.freeze_panes = 'E2'; ws2.auto_filter.ref = ws2.dimensions
     bd = [m for m in merged if m['boundary'] == 'Y' or (m['prev_include'] != m['include'] and m['include'])]
     ws3 = wb.create_sheet(f'3. 경계검수_{len(bd)}')
-    cols3 = ['구분', 'artiId', '원본시트', '판정', '제외사유', '언어군', '학습자맥락', '언어기능(주)', '연구방법(주)', '신뢰도', '판정메모', '이전판정', '이전언어군/사유', '제목(국문)', '학술지', '연도', '주제어(국문)'] + (['초록(국문)'] if with_abstract else []) + ['저자 확정(기입)', 'KCI링크']
+    cols3 = ['구분', 'artiId', '언어 범주', '판정', '제외사유', '언어군', '학습자맥락', '언어기능(주)', '연구방법(주)', '신뢰도', '판정메모', '이전판정', '이전언어군/사유', '제목(국문)', '학술지', '연도', '주제어(국문)'] + (['초록(국문)'] if with_abstract else []) + ['저자 확정(기입)', 'KCI링크']
     ws3.append(cols3)
     for c in range(1, len(cols3) + 1): ws3.cell(1, c).font = BOLD; ws3.cell(1, c).fill = YEL
     for m in sorted(bd, key=lambda m: (m['include'], m['group'], m['year'])):
         kind = ('경계 표시' if m['boundary'] == 'Y' else '') + (' / 규칙과 상이' if m['prev_include'] != m['include'] else '')
-        ws3.append([kind.strip(' /'), m['arti_id'], m['sheet'], m['include'], m['reason'], m['group'], m['learner'], m['func'], m['meth'], m['confidence'], m['note'],
+        ws3.append([kind.strip(' /'), m['arti_id'], m.get('lang3', m['sheet']), m['include'], m['reason'], m['group'], m['learner'], m['func'], m['meth'], m['confidence'], m['note'],
                     m['prev_include'], m['prev_group'] or m['prev_reason'], m['title_ko'] or m['title_en'], m['journal'], m['year'], m['kw_ko']] + ([m['abstract_ko']] if with_abstract else []) + ['', m['permalink']])
     ws3.freeze_panes = 'E2'; ws3.auto_filter.ref = ws3.dimensions
     # 4. 대조표

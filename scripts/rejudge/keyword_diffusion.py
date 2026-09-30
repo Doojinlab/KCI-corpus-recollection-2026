@@ -141,9 +141,10 @@ def main():
         def fmt(g):
             d = sm.get(g)
             return f'{d["median"]:.0f} ({d["p05"]}–{d["p95"]})' if d else '—'
-        verdict = '—'
-        if zh and sm.get('영어'):
-            verdict = '규모 효과로 설명 가능' if zh <= sm['영어']['p95'] else '규모로 설명 안 됨(실질 지연)'
+        # 두 비교군 모두의 축소 분포와 비교한다(한쪽만 보면 경계 결과가 가려진다)
+        out_of = [g for g in ('영어', '한국어') if zh and sm.get(g) and zh > sm[g]['p95']]
+        verdict = '—' if not zh else ('규모 효과로 설명 가능' if not out_of else
+                                      ('규모로 설명 안 됨(두 비교군 모두 대비 지연)' if len(out_of) == 2 else f'{out_of[0]}군 대비로만 지연(경계)'))
         L.append(f'| {m["name"]} | {zh or "—"} | {fmt("영어")} | {fmt("한국어")} | {verdict} |')
     L.append('\n## 4. 공유 키워드 수와 시차 (4.3)\n')
     L.append('| 항목 | 재산출 | 논문 |\n|---|---|---|')

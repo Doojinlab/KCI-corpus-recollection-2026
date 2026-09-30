@@ -3,3 +3,6 @@ data/cache/
 __pycache__/
 *.pyc
 data/_recon*.pkl
+
+# 엑셀·워드 잠금 파일
+~$*
