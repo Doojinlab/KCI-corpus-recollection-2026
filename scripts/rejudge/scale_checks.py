@@ -98,7 +98,32 @@ for f in FUNCS:
         row += [f'{e:.1f}', f'{fp(p)}{"↓" if zf[f] < e else "↑"}{mark}']
         out['function'][f][name] = dict(expected=round(e, 2), p=p, direction='적음' if zf[f] < e else '많음')
     L.append('| ' + ' | '.join(row) + ' |')
-L += ['', '↓ 중국어가 기대보다 적음, ↑ 많음. * P<0.05, ** Bonferroni 기준 통과.', '',
+L += ['', '↓ 중국어가 기대보다 적음, ↑ 많음. * P<0.05, ** Bonferroni 기준 통과.', '']
+
+# 3b. 연구방법 구성: 연구방법은 모든 논문에 있으므로 중국어군 전체(기능 비특정 포함)를 비교군 전체에서 같은 수로 뽑는다
+zm_all = [r for r in inc if r['group'] == '중국어']; n_zm = len(zm_all)
+zm = Counter(r['meth'] for r in zm_all)
+mpools = {'합': Counter(r['meth'] for r in inc if r['group'] != '중국어'),
+          '영어': Counter(r['meth'] for r in inc if r['group'] == '영어'),
+          '한국어': Counter(r['meth'] for r in inc if r['group'] == '한국어')}
+L += ['## 3b. 연구방법 구성의 규모 통제 비교\n',
+      f'중국어군 전체 {n_zm}편과 같은 수를 비교군에서 비복원 추출할 때 방법별 편수가 중국어 실측만큼 적거나(≤) 많을(≥) 확률. '
+      f'8개 방법을 함께 보므로 Bonferroni 기준 {0.05 / len(METHS):.4f}을 병기한다. 구축·평가형(개발+성능평가)은 묶음 지표로 따로 둔다.\n',
+      '| 방법 | 중국어 | 비교군 합 기대 | P(합) | 영어 기대 | P(영어) | 한국어 기대 | P(한국어) |', '|---|---|---|---|---|---|---|---|']
+out['method'] = {}
+for m in METHS + ['구축·평가형']:
+    keys = ('개발연구', '성능평가') if m == '구축·평가형' else (m,)
+    k = sum(zm[x] for x in keys)
+    row = [m, str(k)]
+    out['method'][m] = {'zh': k}
+    for name, pc in mpools.items():
+        N = sum(pc.values()); K = sum(pc[x] for x in keys); e = n_zm * K / N
+        p = p_le(K, N, n_zm, k) if k < e else p_ge(K, N, n_zm, k)
+        mark = ' **' if p < 0.05 / len(METHS) else (' *' if p < 0.05 else '')
+        row += [f'{e:.1f}', f'{fp(p)}{"↓" if k < e else "↑"}{mark}']
+        out['method'][m][name] = dict(expected=round(e, 2), p=p, direction='적음' if k < e else '많음')
+    L.append('| ' + ' | '.join(row) + ' |')
+L += ['', '↓ 중국어가 기대보다 적음, ↑ 많음. * P<0.05, ** Bonferroni 기준 통과. 중국어군 문헌·리뷰의 대부분은 담론·시론이다(부록 A 표 A2의 담론·시론 규칙).', '',
       '## 4. 원고 반영\n',
       '- 3.2: 공백 네 유형(확산대기·저축적·구조공백·중국어 단독)의 정의와 임계값(10편), 민감도(5·15·20편) 문장.',
       '- 3.4: 좌표·기능 단위 규모 기대값 점검을 방법으로 명시.',

@@ -64,7 +64,7 @@ LAG = {m: lag_out(m) for m in KD['module_first_year']}
 lag_both = [m for m, o in LAG.items() if len(o) == 2]
 lag_part = [(m, o[0]) for m, o in LAG.items() if len(o) == 1]
 EN_MOD = {'자동평가·피드백': 'automated assessment and feedback', '음성·발음(음성인식·TTS)': 'speech and pronunciation',
-          '리터러시(AI·디지털·프롬프트)': 'AI literacy', '정책·에듀테크(AI 디지털교과서)': 'policy and edtech'}
+          '리터러시(AI·디지털·프롬프트)': 'AI literacy', '에듀테크·교육 정책': 'policy and edtech'}
 
 
 def lag_ko():

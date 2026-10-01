@@ -30,7 +30,7 @@
      "patterns": ["speech\\s+recognition", "\\basr\\b", "음성\\s*인식", "\\btts\\b", "text-?to-?speech", "음성\\s*합성", "음성\\s*평가", "speech\\s+(assessment|evaluation)", "stt\\b", "받아쓰기\\s*인식"]},
     {"id": "C14", "name": "발음·성조", "priority": 14, "module": "음성·발음(음성인식·TTS)",
      "patterns": ["pronunciation", "발음", "성조", "\\btone\\b", "intonation", "억양", "phonolog", "phonetic", "말소리", "유창성\\s*발화"]},
-    {"id": "C15", "name": "AI 디지털교과서·에듀테크 정책", "priority": 15, "module": "정책·에듀테크(AI 디지털교과서)",
+    {"id": "C15", "name": "에듀테크·교육 정책", "priority": 15, "module": "에듀테크·교육 정책",
      "patterns": ["ai\\s+digital\\s+textbook", "ai\\s*디지털\\s*교과서", "\\baidt\\b", "디지털\\s*교과서", "digital\\s+textbook", "edu-?tech", "에듀테크", "교육\\s*정책", "education\\s+policy", "디지털\\s*전환", "digital\\s+transformation", "교육과정\\s*개정", "정보화\\s*교육", "스마트\\s*교육"]},
     {"id": "C16", "name": "자연어처리·기계학습", "priority": 16, "module": "",
      "patterns": ["natural\\s+language\\s+processing", "\\bnlp\\b", "machine\\s+learning", "기계\\s*학습", "머신\\s*러닝", "deep\\s+learning", "딥\\s*러닝", "딥러닝", "\\bbert\\b", "transformer", "트랜스포머", "임베딩", "embedding", "text\\s+mining", "텍스트\\s*마이닝", "토픽\\s*모델", "topic\\s+model", "\\blda\\b", "감성\\s*분석", "sentiment\\s+analysis", "신경망", "neural\\s+network"]},
@@ -49,6 +49,6 @@
     {"name": "음성·발음(음성인식·TTS)", "concepts": ["C13", "C14"]},
     {"name": "리터러시(AI·디지털·프롬프트)", "concepts": ["C04", "C05", "C06"]},
     {"name": "자동평가·피드백", "concepts": ["C11", "C12"]},
-    {"name": "정책·에듀테크(AI 디지털교과서)", "concepts": ["C15"]}
+    {"name": "에듀테크·교육 정책", "concepts": ["C15"]}
   ]
 }
